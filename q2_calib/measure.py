@@ -21,6 +21,11 @@ def pose(corners,K,dist):
     contour=corners.astype(np.float32)
     if not cv2.isContourConvex(contour.reshape(-1,1,2)) or abs(cv2.contourArea(contour))<25:
         raise ValueError('角点顺序交叉/面积过小；按同一纸张物理角TL TR BR BL标注')
+    K=np.asarray(K,float); dist=np.asarray(dist,float)
+    if K.shape!=(3,3) or not np.isfinite(K).all() or K[0,0]<=0 or K[1,1]<=0:
+        raise ValueError('K须为有限的3×3矩阵且焦距为正')
+    if not np.allclose(K[2],[0,0,1]) or dist.size not in (4,5,8,12,14) or not np.isfinite(dist).all():
+        raise ValueError('相机矩阵末行或畸变参数不合法')
     obj=a4_points()
     ok,rs,ts,_=cv2.solvePnPGeneric(obj,corners,K,dist,flags=cv2.SOLVEPNP_IPPE)
     candidates=[]
@@ -89,6 +94,7 @@ def measure(calibration,manifest,output):
         actual=float(record['actual_distance_m'])
         if not np.isfinite(actual) or actual<=0: raise ValueError('真实距离必须为正且有限')
         corners=np.asarray(record['corners_px'],float)
+        if corners.shape!=(4,2) or not np.isfinite(corners).all(): raise ValueError('须有4个有限二维角点')
         if np.any(corners<0) or np.any(corners[:,0]>=image.shape[1]) or np.any(corners[:,1]>=image.shape[0]): raise ValueError('角点越界')
         result=pose(corners,K,dist); metric=record['reference_metric']
         result.update(image=str(file),actual_distance_m=actual,reference_metric=metric,

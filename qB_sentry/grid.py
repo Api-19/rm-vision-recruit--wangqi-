@@ -25,13 +25,18 @@ class Grid:
         if image is None:
             raise ValueError(f'无法读取地图: {path}')
         res = float(cfg['resolution'])
-        if res <= 0:
+        if not np.isfinite(res) or res <= 0:
             raise ValueError('resolution 必须大于0')
+        origin=np.asarray(cfg['origin'],float)
+        free_threshold=float(cfg['free_thresh']); occupied_threshold=float(cfg['occupied_thresh'])
+        if origin.shape!=(3,) or not np.isfinite(origin).all(): raise ValueError('origin必须为有限的x,y,yaw')
+        if not 0<=free_threshold<occupied_threshold<=1: raise ValueError('阈值须满足0<=free<occupied<=1')
+        if cfg.get('negate',0) not in (0,1): raise ValueError('negate只能为0或1')
         p = image.astype(float) / 255
         if not cfg.get('negate', 0):
             p = 1 - p
         # 与本题检查器一致，阈值相等时不认为可通行。
-        return cls(image, res, np.asarray(cfg['origin'], float), p < cfg['free_thresh'])
+        return cls(image, res, origin, p < free_threshold)
 
     @property
     def rotation(self):
@@ -56,7 +61,7 @@ class Grid:
 
     def safe_cells(self, radius):
         """保守膨胀：占据格是有面积的方块，扣掉半格对角线。"""
-        if radius < 0:
+        if not np.isfinite(radius) or radius < 0:
             raise ValueError('半径不能为负')
         padded = np.pad(self.free, 1, constant_values=False)
         distance = distance_transform_edt(padded)[1:-1, 1:-1] * self.resolution
@@ -68,6 +73,9 @@ class Grid:
 
     def disk_clear(self, xy, radius):
         """精确检查圆与附近占据/未知方格的相交，包含整个底盘的边界余量。"""
+        xy=np.asarray(xy,float)
+        if xy.shape!=(2,) or not np.isfinite(xy).all() or not np.isfinite(radius) or radius<0:
+            raise ValueError('坐标必须是有限二维向量，半径须非负有限')
         x, y = self.local(xy)
         res = self.resolution
         h, w = self.free.shape
