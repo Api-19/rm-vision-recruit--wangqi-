@@ -1,0 +1,7 @@
+# 与当前机器已核验环境相符；不是干净Mac可重装证明。
+numpy==2.4.6
+opencv-python==5.0.0.93
+matplotlib==3.11.2
+PyYAML==6.0.3
+open3d==0.20.0
+scipy==1.17.1

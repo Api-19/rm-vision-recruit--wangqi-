@@ -218,3 +218,12 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# 招新考核：原始大数据、环境、私人采集与临时输出
+.DS_Store
+data/
+q2_calib/input/
+*.pcd
+*.mp4
+*.npz
+*.dylib
