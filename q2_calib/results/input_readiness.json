@@ -1,0 +1,15 @@
+{
+  "calibration_images": [],
+  "valid_chessboard_count": 0,
+  "resolution_consistent": true,
+  "calibration_input_ready": false,
+  "measurement_samples": [],
+  "valid_measurement_count": 0,
+  "needs_user": [
+    "本人实际测量方格边长",
+    "至少5组约0.5–3m真实距离与对应照片",
+    "统一镜头/变焦/分辨率和距离参考点",
+    "由本人填写学习总结"
+  ],
+  "note": "Readiness checks do not verify image ownership, ruler truth, pose diversity, or metric accuracy."
+}

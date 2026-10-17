@@ -1,0 +1,97 @@
+{
+  "method": "automatic_boundary_matching",
+  "human_landmarks": false,
+  "candidates": [
+    {
+      "initial_degrees": 0,
+      "angle_deg": 0.006877342797942365,
+      "rotation": [
+        [
+          0.9999999927961264,
+          -0.00012003227532418091
+        ],
+        [
+          0.00012003227532418091,
+          0.9999999927961264
+        ]
+      ],
+      "translation": [
+        -0.968505526375041,
+        -7.245284241205285
+      ],
+      "mean_truncated_distance_m": 0.24234469442902315,
+      "median_distance_m": 0.13608878400587404,
+      "within_015m_fraction": 0.5392857142857143,
+      "optimizer_success": true
+    },
+    {
+      "initial_degrees": 180,
+      "angle_deg": 180.00019386250142,
+      "rotation": [
+        [
+          -0.9999999999942758,
+          3.383538945782448e-06
+        ],
+        [
+          -3.383538945782448e-06,
+          -0.9999999999942758
+        ]
+      ],
+      "translation": [
+        22.919991051686896,
+        4.360055874015403
+      ],
+      "mean_truncated_distance_m": 0.24924195590499598,
+      "median_distance_m": 0.14995632082451327,
+      "within_015m_fraction": 0.5137142857142857,
+      "optimizer_success": true
+    },
+    {
+      "initial_degrees": 270,
+      "angle_deg": 273.1285822151392,
+      "rotation": [
+        [
+          0.054576930009401316,
+          0.9985095686625887
+        ],
+        [
+          -0.9985095686625887,
+          0.054576930009401316
+        ]
+      ],
+      "translation": [
+        4.725762167132898,
+        10.919867146624496
+      ],
+      "mean_truncated_distance_m": 0.5949629325373151,
+      "median_distance_m": 1.0460947485427043,
+      "within_015m_fraction": 0.13028571428571428,
+      "optimizer_success": true
+    },
+    {
+      "initial_degrees": 90,
+      "angle_deg": 95.21720090824803,
+      "rotation": [
+        [
+          -0.09093155303739349,
+          -0.9958571447061108
+        ],
+        [
+          0.9958571447061108,
+          -0.09093155303739349
+        ]
+      ],
+      "translation": [
+        17.84672958847994,
+        -12.069704760497787
+      ],
+      "mean_truncated_distance_m": 0.5965577454461077,
+      "median_distance_m": 1.0795307341695264,
+      "within_015m_fraction": 0.13457142857142856,
+      "optimizer_success": true
+    }
+  ],
+  "best_vs_second_gap_m": 0.006897261475972832,
+  "ambiguous_orientation": true,
+  "note": "Geometric candidate only. Reference-map matching is not independent ground truth."
+}

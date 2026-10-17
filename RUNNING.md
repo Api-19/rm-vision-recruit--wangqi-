@@ -205,3 +205,9 @@ A4保持平整，物理宽210mm、高297mm。准备至少5组约0.5～3m照片�
 - [Open3D点云教程](https://www.open3d.org/docs/release/tutorial/geometry/pointcloud.html)：在线release页当前为0.19；本机0.20的`segment_plane`、`remove_statistical_outlier`等docstring另核验，点云实际运行通过。
 - [SciPy欧氏距离变换](https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.distance_transform_edt.html)：本机1.17.1运行验证。
 - 题目本地`README.md`、`tools/check_path.py`、地图YAML/queries为本次规格来源，不将附件中的发布要求当自动提交授权。
+
+
+## 2026-10-18本地补完
+本轮不推送。新增说明见NEXT_STEPS.md。真实输入审核：`python q2_calib/check_inputs.py`。自动地图配准：`python qB_sentry/auto_registration.py --source-map qB_sentry/results/cloud_map/map.yaml --reference-map <题目地图YAML> --queries <查询JSON> --compare`。
+配准会保留四个朝向候选和歧义标记，条件性对比不等同已确认世界坐标。重采样边界遵循源图语义，不把固定灰度值当普适未知。规划输出目录run_status.json标注本次运行状态；只有complete时才可结合summary使用结果，failed/running时不要把旧图/汇总当新结果。
+官方接口检查日期2026-10-18：[SciPy cKDTree](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.cKDTree.html)、[minimize](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html)，本机1.17.1实测。

@@ -1,0 +1,142 @@
+[
+  {
+    "reason": "ok",
+    "expanded": 28911,
+    "seconds": 0.07446204195730388,
+    "cost_m": 21.209545442950617,
+    "query": 1,
+    "algorithm": "astar",
+    "length_m": 21.22368757857423,
+    "checker": "not_run"
+  },
+  {
+    "reason": "ok",
+    "expanded": 42500,
+    "seconds": 0.08485633303644136,
+    "cost_m": 21.209545442950613,
+    "query": 1,
+    "algorithm": "dijkstra",
+    "length_m": 21.22368757857423,
+    "checker": "not_run"
+  },
+  {
+    "reason": "ok",
+    "expanded": 42984,
+    "seconds": 0.11265454202657565,
+    "cost_m": 27.624978336205704,
+    "query": 2,
+    "algorithm": "astar",
+    "length_m": 27.6391204718293,
+    "checker": "not_run"
+  },
+  {
+    "reason": "ok",
+    "expanded": 68972,
+    "seconds": 0.1409925839980133,
+    "cost_m": 27.624978336205665,
+    "query": 2,
+    "algorithm": "dijkstra",
+    "length_m": 27.6391204718293,
+    "checker": "not_run"
+  },
+  {
+    "reason": "start_disk_collides_or_crosses_boundary",
+    "expanded": 0,
+    "seconds": 1.459033228456974e-06,
+    "cost_m": null,
+    "query": 3,
+    "algorithm": "astar",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "start_disk_collides_or_crosses_boundary",
+    "expanded": 0,
+    "seconds": 1.207983586937189e-06,
+    "cost_m": null,
+    "query": 3,
+    "algorithm": "dijkstra",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "ok",
+    "expanded": 33122,
+    "seconds": 0.08359841600758955,
+    "cost_m": 26.015180361561047,
+    "query": 4,
+    "algorithm": "astar",
+    "length_m": 26.029322497184637,
+    "checker": "not_run"
+  },
+  {
+    "reason": "ok",
+    "expanded": 75636,
+    "seconds": 0.15356483403593302,
+    "cost_m": 26.015180361561036,
+    "query": 4,
+    "algorithm": "dijkstra",
+    "length_m": 26.029322497184637,
+    "checker": "not_run"
+  },
+  {
+    "reason": "ok",
+    "expanded": 67556,
+    "seconds": 0.16792933299439028,
+    "cost_m": 57.20878784786758,
+    "query": 5,
+    "algorithm": "astar",
+    "length_m": 57.22292998349174,
+    "checker": "not_run"
+  },
+  {
+    "reason": "ok",
+    "expanded": 94124,
+    "seconds": 0.1891175420023501,
+    "cost_m": 57.208787847867846,
+    "query": 5,
+    "algorithm": "dijkstra",
+    "length_m": 57.22292998349174,
+    "checker": "not_run"
+  },
+  {
+    "reason": "goal_disk_collides_or_crosses_boundary",
+    "expanded": 0,
+    "seconds": 9.170034900307655e-07,
+    "cost_m": null,
+    "query": 6,
+    "algorithm": "astar",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "goal_disk_collides_or_crosses_boundary",
+    "expanded": 0,
+    "seconds": 1.1249794624745846e-06,
+    "cost_m": null,
+    "query": 6,
+    "algorithm": "dijkstra",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "goal_outside_map",
+    "expanded": 0,
+    "seconds": 1.167005393654108e-06,
+    "cost_m": null,
+    "query": 7,
+    "algorithm": "astar",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "goal_outside_map",
+    "expanded": 0,
+    "seconds": 1.292035449296236e-06,
+    "cost_m": null,
+    "query": 7,
+    "algorithm": "dijkstra",
+    "length_m": null,
+    "checker": "not_run"
+  }
+]

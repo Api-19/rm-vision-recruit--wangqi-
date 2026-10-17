@@ -1,0 +1,114 @@
+[
+  {
+    "query": 1,
+    "algorithm": "astar",
+    "generated_length_m": null,
+    "reference_length_m": 21.22368757857423,
+    "generated_status": "goal_disk_collides_or_crosses_boundary",
+    "reference_status": "ok"
+  },
+  {
+    "query": 1,
+    "algorithm": "dijkstra",
+    "generated_length_m": null,
+    "reference_length_m": 21.22368757857423,
+    "generated_status": "goal_disk_collides_or_crosses_boundary",
+    "reference_status": "ok"
+  },
+  {
+    "query": 2,
+    "algorithm": "astar",
+    "generated_length_m": null,
+    "reference_length_m": 27.6391204718293,
+    "generated_status": "start_disk_collides_or_crosses_boundary",
+    "reference_status": "ok"
+  },
+  {
+    "query": 2,
+    "algorithm": "dijkstra",
+    "generated_length_m": null,
+    "reference_length_m": 27.6391204718293,
+    "generated_status": "start_disk_collides_or_crosses_boundary",
+    "reference_status": "ok"
+  },
+  {
+    "query": 3,
+    "algorithm": "astar",
+    "generated_length_m": null,
+    "reference_length_m": null,
+    "generated_status": "start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary",
+    "reference_status": "start_disk_collides_or_crosses_boundary"
+  },
+  {
+    "query": 3,
+    "algorithm": "dijkstra",
+    "generated_length_m": null,
+    "reference_length_m": null,
+    "generated_status": "start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary",
+    "reference_status": "start_disk_collides_or_crosses_boundary"
+  },
+  {
+    "query": 4,
+    "algorithm": "astar",
+    "generated_length_m": null,
+    "reference_length_m": 26.029322497184637,
+    "generated_status": "disconnected_on_conservative_grid",
+    "reference_status": "ok"
+  },
+  {
+    "query": 4,
+    "algorithm": "dijkstra",
+    "generated_length_m": null,
+    "reference_length_m": 26.029322497184637,
+    "generated_status": "disconnected_on_conservative_grid",
+    "reference_status": "ok"
+  },
+  {
+    "query": 5,
+    "algorithm": "astar",
+    "generated_length_m": null,
+    "reference_length_m": 57.22292998349174,
+    "generated_status": "goal_disk_collides_or_crosses_boundary",
+    "reference_status": "ok"
+  },
+  {
+    "query": 5,
+    "algorithm": "dijkstra",
+    "generated_length_m": null,
+    "reference_length_m": 57.22292998349174,
+    "generated_status": "goal_disk_collides_or_crosses_boundary",
+    "reference_status": "ok"
+  },
+  {
+    "query": 6,
+    "algorithm": "astar",
+    "generated_length_m": null,
+    "reference_length_m": null,
+    "generated_status": "goal_disk_collides_or_crosses_boundary",
+    "reference_status": "goal_disk_collides_or_crosses_boundary"
+  },
+  {
+    "query": 6,
+    "algorithm": "dijkstra",
+    "generated_length_m": null,
+    "reference_length_m": null,
+    "generated_status": "goal_disk_collides_or_crosses_boundary",
+    "reference_status": "goal_disk_collides_or_crosses_boundary"
+  },
+  {
+    "query": 7,
+    "algorithm": "astar",
+    "generated_length_m": null,
+    "reference_length_m": null,
+    "generated_status": "start_disk_collides_or_crosses_boundary;goal_outside_map",
+    "reference_status": "goal_outside_map"
+  },
+  {
+    "query": 7,
+    "algorithm": "dijkstra",
+    "generated_length_m": null,
+    "reference_length_m": null,
+    "generated_status": "start_disk_collides_or_crosses_boundary;goal_outside_map",
+    "reference_status": "goal_outside_map"
+  }
+]
