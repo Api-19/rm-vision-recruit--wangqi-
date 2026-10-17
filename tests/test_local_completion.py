@@ -13,6 +13,8 @@ from grid import Grid
 from measure import pose,a4_points,measure
 from register_and_compare import compare_transform
 from auto_registration import estimate
+from plan import run
+from check_inputs import audit
 
 
 class InputTests(unittest.TestCase):
@@ -51,6 +53,27 @@ class InputTests(unittest.TestCase):
         with tempfile.TemporaryDirectory() as folder:
             root=Path(folder);path=self.make_map(root)
             with self.assertRaises(ValueError):compare_transform(path,path,np.diag([1.,-1]),[0,0],root/'bad')
+
+    def test_no_photos_are_not_ready(self):
+        with tempfile.TemporaryDirectory() as folder:
+            report=audit(Path(folder)/'missing',Path(folder)/'manifest.json')
+            self.assertFalse(report['calibration_input_ready'])
+            self.assertEqual(report['valid_chessboard_count'],0)
+            self.assertEqual(report['valid_measurement_count'],0)
+
+    def test_failed_or_unreachable_rerun_does_not_keep_old_path(self):
+        with tempfile.TemporaryDirectory() as folder:
+            root=Path(folder);path=self.make_map(root)
+            queries=root/'queries.json';queries.write_text(json.dumps({'queries':[{'start':[-5,0],'goal':[1,1]}]}))
+            out=root/'results';(out/'astar').mkdir(parents=True)
+            for file in [out/'path1.csv',out/'astar/path1.csv',out/'astar/check1.txt']:file.write_text('old success')
+            result=run(path,queries,out)
+            self.assertIsNone(result[0]['length_m'])
+            self.assertFalse((out/'path1.csv').exists());self.assertFalse((out/'astar/check1.txt').exists())
+            self.assertEqual(json.loads((out/'run_status.json').read_text())['status'],'complete')
+            queries.write_text('{"queries": []}')
+            with self.assertRaises(ValueError):run(path,queries,out)
+            self.assertEqual(json.loads((out/'run_status.json').read_text())['status'],'failed')
 
     def test_auto_registration_recovers_asymmetric_geometry(self):
         rng=np.random.default_rng(31)

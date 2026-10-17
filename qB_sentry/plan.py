@@ -5,6 +5,7 @@ import json
 from pathlib import Path
 import subprocess
 import sys
+from datetime import datetime, timezone
 import numpy as np
 import matplotlib
 matplotlib.use('Agg')
@@ -13,9 +14,10 @@ from grid import Grid, dense_path
 from search import search
 
 
-def run(map_path, queries_path, output, radius=None, checker=None, experiments=False):
+def _run(map_path, queries_path, output, radius=None, checker=None, experiments=False):
     grid = Grid.load(map_path)
     cfg = json.loads(Path(queries_path).read_text())
+    if not isinstance(cfg.get('queries'),list) or not cfg['queries']: raise ValueError('queries须为非空列表')
     radius = float(cfg.get('robot_radius_m', .30) if radius is None else radius)
     safe = grid.safe_cells(radius)
     output = Path(output)
@@ -31,6 +33,8 @@ def run(map_path, queries_path, output, radius=None, checker=None, experiments=F
             folder = output/label
             folder.mkdir(exist_ok=True)
             path_file = folder/f'path{number}.csv'
+            (folder/f'check{number}.txt').unlink(missing_ok=True)
+            if label=='astar': (output/f'path{number}.csv').unlink(missing_ok=True)
             path_file.unlink(missing_ok=True)  # 避免旧成功路径冒充本次不可达结果。
             start, goal = grid.world_to_cell(a), grid.world_to_cell(b)
             result = search(safe,start,goal,grid.resolution,algorithm,heuristic,weight)
@@ -91,6 +95,22 @@ def run(map_path, queries_path, output, radius=None, checker=None, experiments=F
                 ax.plot([r['query'] for r in rows],[r[key] for r in rows],'o-',label=label); ax.set_title(key); ax.set_xlabel('query')
         axes[0].legend(fontsize=7); fig.tight_layout(); fig.savefig(output/'comparison.png',dpi=160); plt.close(fig)
     return summary
+
+
+def run(map_path, queries_path, output, radius=None, checker=None, experiments=False):
+    """标注本次运行状态，避免上次成功输出在本次失败后被误用。"""
+    folder=Path(output);folder.mkdir(parents=True,exist_ok=True)
+    marker=folder/'run_status.json'
+    state={'status':'running','started_at':datetime.now(timezone.utc).isoformat()}
+    marker.write_text(json.dumps(state,indent=2))
+    try:
+        result=_run(map_path,queries_path,output,radius,checker,experiments)
+    except Exception as error:
+        state.update(status='failed',error_type=type(error).__name__,error=str(error))
+        marker.write_text(json.dumps(state,indent=2));raise
+    state.update(status='complete',finished_at=datetime.now(timezone.utc).isoformat(),rows=len(result))
+    marker.write_text(json.dumps(state,indent=2))
+    return result
 
 
 if __name__=='__main__':
