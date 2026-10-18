@@ -1,8 +1,129 @@
 {
-  "calibration_images": [],
-  "valid_chessboard_count": 0,
+  "calibration_images": [
+    {
+      "file": "IMG_4730.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4731.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4732.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4733.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4734.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4735.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4736.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4737.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4738.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4739.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4740.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4741.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4742.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4743.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4744.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    }
+  ],
+  "valid_chessboard_count": 15,
   "resolution_consistent": true,
-  "calibration_input_ready": false,
+  "calibration_input_ready": true,
   "measurement_samples": [],
   "valid_measurement_count": 0,
   "needs_user": [

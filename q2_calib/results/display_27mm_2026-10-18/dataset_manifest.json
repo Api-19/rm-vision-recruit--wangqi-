@@ -1,0 +1,346 @@
+{
+  "date": "2026-10-18",
+  "square_mm": 27,
+  "square_source": "user_reported",
+  "views": 15,
+  "inner_corners": [
+    9,
+    6
+  ],
+  "conversion": "macOS sips HEIC to PNG; no resizing",
+  "original_images_kept_out_of_git": true,
+  "files": [
+    {
+      "file": "IMG_4730.HEIC",
+      "converted": "IMG_4730.png",
+      "source_sha256": "5b92f61be936abaac2930198868f95be19e78658249f64dce224e3024ca4662b",
+      "size": [
+        5712,
+        4284
+      ]
+    },
+    {
+      "file": "IMG_4731.HEIC",
+      "converted": "IMG_4731.png",
+      "source_sha256": "7e4e32bb1e84ef3e12d118d54bba59393500b833ba6f7008b1263de0ddd0fd42",
+      "size": [
+        5712,
+        4284
+      ]
+    },
+    {
+      "file": "IMG_4732.HEIC",
+      "converted": "IMG_4732.png",
+      "source_sha256": "cb4c7b24aed502396921cbbb7f1e1ff2a5df8900a758f492a7633eaa7f7107e1",
+      "size": [
+        5712,
+        4284
+      ]
+    },
+    {
+      "file": "IMG_4733.HEIC",
+      "converted": "IMG_4733.png",
+      "source_sha256": "97480daa5615056271dfdab4400dcb06747fea15b087c0f8a997d03420154ae2",
+      "size": [
+        5712,
+        4284
+      ]
+    },
+    {
+      "file": "IMG_4734.HEIC",
+      "converted": "IMG_4734.png",
+      "source_sha256": "a6f2ec52cb356ddc60c5d852e12241e211f64e38ffb87a4ff8a7627c6c98eb26",
+      "size": [
+        5712,
+        4284
+      ]
+    },
+    {
+      "file": "IMG_4735.HEIC",
+      "converted": "IMG_4735.png",
+      "source_sha256": "d416f29e76ba3449a7a87b62829f772437d3f41dda92ac8495f7d7b7f8a630ab",
+      "size": [
+        5712,
+        4284
+      ]
+    },
+    {
+      "file": "IMG_4736.HEIC",
+      "converted": "IMG_4736.png",
+      "source_sha256": "63579a94de2a8053a2ff27f0ff4c9a9594699926b70a6581031a355231b48a7d",
+      "size": [
+        5712,
+        4284
+      ]
+    },
+    {
+      "file": "IMG_4737.HEIC",
+      "converted": "IMG_4737.png",
+      "source_sha256": "548d30d47aa86d19adccb6b218c93a2af80d443d7cca2555d7e51bf526b8605d",
+      "size": [
+        5712,
+        4284
+      ]
+    },
+    {
+      "file": "IMG_4738.HEIC",
+      "converted": "IMG_4738.png",
+      "source_sha256": "8a01da8d24e3c8b0834a6ca6278f339f69523d619ae252ddc1cd87134d385092",
+      "size": [
+        5712,
+        4284
+      ]
+    },
+    {
+      "file": "IMG_4739.HEIC",
+      "converted": "IMG_4739.png",
+      "source_sha256": "f98fa5dd8e60a738e750e0ca8252f2a48cb77938b15dcf4cbd97ae050f254eb6",
+      "size": [
+        5712,
+        4284
+      ]
+    },
+    {
+      "file": "IMG_4740.HEIC",
+      "converted": "IMG_4740.png",
+      "source_sha256": "8fecf22b397ca980c2faaaf805216458a4503d7fa5a87f88969d371768720116",
+      "size": [
+        5712,
+        4284
+      ]
+    },
+    {
+      "file": "IMG_4741.HEIC",
+      "converted": "IMG_4741.png",
+      "source_sha256": "477737a1a512fbbdbcd170f9c281e2738eeda4818c417a515e28120efbf0ca60",
+      "size": [
+        5712,
+        4284
+      ]
+    },
+    {
+      "file": "IMG_4742.HEIC",
+      "converted": "IMG_4742.png",
+      "source_sha256": "879242ac55e6738008fa290a68e87e69f0670259952536ffecb6c20edeed5363",
+      "size": [
+        5712,
+        4284
+      ]
+    },
+    {
+      "file": "IMG_4743.HEIC",
+      "converted": "IMG_4743.png",
+      "source_sha256": "dab52c234c91d0c5630d0a6f35b7497a8dbbfc3a3033c3352320069505456eeb",
+      "size": [
+        5712,
+        4284
+      ]
+    },
+    {
+      "file": "IMG_4744.HEIC",
+      "converted": "IMG_4744.png",
+      "source_sha256": "a5cbf19f5888cf85d733e83b5c88631b7c0b006c044b32862f41b45eb41329e4",
+      "size": [
+        5712,
+        4284
+      ]
+    }
+  ],
+  "metadata": [
+    {
+      "image": "IMG_4730.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "camera_model": "iPhone 17 Pro",
+      "lens_model": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "focal_35mm": "24",
+      "digital_zoom": "None",
+      "exif_orientation": 1
+    },
+    {
+      "image": "IMG_4731.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "camera_model": "iPhone 17 Pro",
+      "lens_model": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "focal_35mm": "24",
+      "digital_zoom": "None",
+      "exif_orientation": 1
+    },
+    {
+      "image": "IMG_4732.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "camera_model": "iPhone 17 Pro",
+      "lens_model": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "focal_35mm": "24",
+      "digital_zoom": "None",
+      "exif_orientation": 1
+    },
+    {
+      "image": "IMG_4733.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "camera_model": "iPhone 17 Pro",
+      "lens_model": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "focal_35mm": "24",
+      "digital_zoom": "None",
+      "exif_orientation": 1
+    },
+    {
+      "image": "IMG_4734.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "camera_model": "iPhone 17 Pro",
+      "lens_model": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "focal_35mm": "24",
+      "digital_zoom": "None",
+      "exif_orientation": 1
+    },
+    {
+      "image": "IMG_4735.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "camera_model": "iPhone 17 Pro",
+      "lens_model": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "focal_35mm": "24",
+      "digital_zoom": "None",
+      "exif_orientation": 1
+    },
+    {
+      "image": "IMG_4736.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "camera_model": "iPhone 17 Pro",
+      "lens_model": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "focal_35mm": "24",
+      "digital_zoom": "None",
+      "exif_orientation": 1
+    },
+    {
+      "image": "IMG_4737.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "camera_model": "iPhone 17 Pro",
+      "lens_model": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "focal_35mm": "24",
+      "digital_zoom": "None",
+      "exif_orientation": 1
+    },
+    {
+      "image": "IMG_4738.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "camera_model": "iPhone 17 Pro",
+      "lens_model": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "focal_35mm": "24",
+      "digital_zoom": "None",
+      "exif_orientation": 1
+    },
+    {
+      "image": "IMG_4739.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "camera_model": "iPhone 17 Pro",
+      "lens_model": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "focal_35mm": "24",
+      "digital_zoom": "None",
+      "exif_orientation": 1
+    },
+    {
+      "image": "IMG_4740.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "camera_model": "iPhone 17 Pro",
+      "lens_model": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "focal_35mm": "24",
+      "digital_zoom": "None",
+      "exif_orientation": 1
+    },
+    {
+      "image": "IMG_4741.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "camera_model": "iPhone 17 Pro",
+      "lens_model": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "focal_35mm": "24",
+      "digital_zoom": "None",
+      "exif_orientation": 1
+    },
+    {
+      "image": "IMG_4742.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "camera_model": "iPhone 17 Pro",
+      "lens_model": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "focal_35mm": "24",
+      "digital_zoom": "None",
+      "exif_orientation": 1
+    },
+    {
+      "image": "IMG_4743.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "camera_model": "iPhone 17 Pro",
+      "lens_model": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "focal_35mm": "24",
+      "digital_zoom": "None",
+      "exif_orientation": 1
+    },
+    {
+      "image": "IMG_4744.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "camera_model": "iPhone 17 Pro",
+      "lens_model": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "focal_35mm": "24",
+      "digital_zoom": "None",
+      "exif_orientation": 1
+    }
+  ]
+}
