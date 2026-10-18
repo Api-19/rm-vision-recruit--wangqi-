@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-18",
+  "views": 19,
+  "square_mm": 27,
+  "files": [
+    {
+      "source": "IMG_4730.HEIC",
+      "sha256": "5b92f61be936abaac2930198868f95be19e78658249f64dce224e3024ca4662b"
+    },
+    {
+      "source": "IMG_4731.HEIC",
+      "sha256": "7e4e32bb1e84ef3e12d118d54bba59393500b833ba6f7008b1263de0ddd0fd42"
+    },
+    {
+      "source": "IMG_4732.HEIC",
+      "sha256": "cb4c7b24aed502396921cbbb7f1e1ff2a5df8900a758f492a7633eaa7f7107e1"
+    },
+    {
+      "source": "IMG_4733.HEIC",
+      "sha256": "97480daa5615056271dfdab4400dcb06747fea15b087c0f8a997d03420154ae2"
+    },
+    {
+      "source": "IMG_4734.HEIC",
+      "sha256": "a6f2ec52cb356ddc60c5d852e12241e211f64e38ffb87a4ff8a7627c6c98eb26"
+    },
+    {
+      "source": "IMG_4735.HEIC",
+      "sha256": "d416f29e76ba3449a7a87b62829f772437d3f41dda92ac8495f7d7b7f8a630ab"
+    },
+    {
+      "source": "IMG_4736.HEIC",
+      "sha256": "63579a94de2a8053a2ff27f0ff4c9a9594699926b70a6581031a355231b48a7d"
+    },
+    {
+      "source": "IMG_4737.HEIC",
+      "sha256": "548d30d47aa86d19adccb6b218c93a2af80d443d7cca2555d7e51bf526b8605d"
+    },
+    {
+      "source": "IMG_4738.HEIC",
+      "sha256": "8a01da8d24e3c8b0834a6ca6278f339f69523d619ae252ddc1cd87134d385092"
+    },
+    {
+      "source": "IMG_4739.HEIC",
+      "sha256": "f98fa5dd8e60a738e750e0ca8252f2a48cb77938b15dcf4cbd97ae050f254eb6"
+    },
+    {
+      "source": "IMG_4740.HEIC",
+      "sha256": "8fecf22b397ca980c2faaaf805216458a4503d7fa5a87f88969d371768720116"
+    },
+    {
+      "source": "IMG_4741.HEIC",
+      "sha256": "477737a1a512fbbdbcd170f9c281e2738eeda4818c417a515e28120efbf0ca60"
+    },
+    {
+      "source": "IMG_4742.HEIC",
+      "sha256": "879242ac55e6738008fa290a68e87e69f0670259952536ffecb6c20edeed5363"
+    },
+    {
+      "source": "IMG_4743.HEIC",
+      "sha256": "dab52c234c91d0c5630d0a6f35b7497a8dbbfc3a3033c3352320069505456eeb"
+    },
+    {
+      "source": "IMG_4744.HEIC",
+      "sha256": "a5cbf19f5888cf85d733e83b5c88631b7c0b006c044b32862f41b45eb41329e4"
+    },
+    {
+      "source": "IMG_4745.HEIC",
+      "sha256": "49c95580f75cd57422b86479cfb2bab26c8f89a3625b43ee67abde9816b9bfa8"
+    },
+    {
+      "source": "IMG_4746.HEIC",
+      "sha256": "0c88ccb356ebebf9ba93c71599198436329a0840e91099ecdef18ac9033884db"
+    },
+    {
+      "source": "IMG_4747.HEIC",
+      "sha256": "8d88b2655e3abdb346cdeb82deae2124e89ccac5a66340b3be232d16716f81ad"
+    },
+    {
+      "source": "IMG_4748.HEIC",
+      "sha256": "15498ccddc1788b8fa120c012ca8a16432097bcd8423daa9782dc75e63cefb3b"
+    }
+  ],
+  "extra_four_metadata": [
+    {
+      "file": "IMG_4745.HEIC",
+      "size": [
+        5712,
+        4284
+      ],
+      "lens": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "equivalent_mm": "24"
+    },
+    {
+      "file": "IMG_4746.HEIC",
+      "size": [
+        5712,
+        4284
+      ],
+      "lens": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "equivalent_mm": "24"
+    },
+    {
+      "file": "IMG_4747.HEIC",
+      "size": [
+        5712,
+        4284
+      ],
+      "lens": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "equivalent_mm": "24"
+    },
+    {
+      "file": "IMG_4748.HEIC",
+      "size": [
+        5712,
+        4284
+      ],
+      "lens": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+      "focal_mm": "6.764999865652793",
+      "equivalent_mm": "24"
+    }
+  ],
+  "original_photos_in_git": false
+}

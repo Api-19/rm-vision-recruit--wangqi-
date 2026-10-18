@@ -119,9 +119,41 @@
         4284
       ],
       "corners_found": true
+    },
+    {
+      "file": "IMG_4745.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4746.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4747.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
+    },
+    {
+      "file": "IMG_4748.png",
+      "size": [
+        5712,
+        4284
+      ],
+      "corners_found": true
     }
   ],
-  "valid_chessboard_count": 15,
+  "valid_chessboard_count": 19,
   "resolution_consistent": true,
   "calibration_input_ready": true,
   "measurement_samples": [],
@@ -132,5 +164,6 @@
     "统一镜头/变焦/分辨率和距离参考点",
     "由本人填写学习总结"
   ],
-  "note": "Readiness checks do not verify image ownership, ruler truth, pose diversity, or metric accuracy."
+  "note": "Readiness checks do not verify image ownership, ruler truth, pose diversity, or metric accuracy.",
+  "evidence": "19-view calibrate.py fit/detection_log.json; 9x6 corners all found"
 }
