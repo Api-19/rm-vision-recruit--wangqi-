@@ -1,0 +1,242 @@
+[
+  {
+    "center_range_m": 0.5029173781206391,
+    "optical_z_m": 0.4961636585191789,
+    "translation_m": [
+      0.007522429461748679,
+      0.08179808210217708,
+      0.4961636585191789
+    ],
+    "rvec": [
+      -0.008420297818373513,
+      -0.053285724718158116,
+      1.567978645738727
+    ],
+    "reprojection_rms_px": 10.032603018889274,
+    "estimated_inclination_deg": 2.783807273271452,
+    "candidate_errors_px": [
+      23.775620558263054,
+      93.4059850462328
+    ],
+    "ambiguous": false,
+    "image": "IMG_4765.png",
+    "actual_distance_m": 0.5,
+    "reference_metric": "center_range_m",
+    "measured_angle_deg": null,
+    "error_m": 0.0029173781206390803,
+    "relative_error_pct": 0.5834756241278161,
+    "without_distortion": {
+      "center_range_m": 0.4947558299556691,
+      "optical_z_m": 0.4878781846789658,
+      "translation_m": [
+        0.007638200412875923,
+        0.08185270969205968,
+        0.4878781846789658
+      ],
+      "rvec": [
+        -0.014087733059678725,
+        -0.04611307704364245,
+        1.568126513404622
+      ],
+      "reprojection_rms_px": 9.98430989036,
+      "estimated_inclination_deg": 2.488092469929248,
+      "candidate_errors_px": [
+        24.380575292655013,
+        92.03373493843625
+      ],
+      "ambiguous": false
+    }
+  },
+  {
+    "center_range_m": 0.7648971789275966,
+    "optical_z_m": 0.7558191429746876,
+    "translation_m": [
+      0.06277359478728166,
+      0.09932065868633072,
+      0.7558191429746876
+    ],
+    "rvec": [
+      -0.018962285637974124,
+      -0.0017812528501598966,
+      1.5759940353931319
+    ],
+    "reprojection_rms_px": 6.1668083044805195,
+    "estimated_inclination_deg": 0.9817607526140538,
+    "candidate_errors_px": [
+      11.734123739234606,
+      34.35468241605293
+    ],
+    "ambiguous": false,
+    "image": "IMG_4762.png",
+    "actual_distance_m": 0.75,
+    "reference_metric": "center_range_m",
+    "measured_angle_deg": null,
+    "error_m": 0.014897178927596566,
+    "relative_error_pct": 1.986290523679542,
+    "without_distortion": {
+      "center_range_m": 0.7547441478604054,
+      "optical_z_m": 0.7455133115855852,
+      "translation_m": [
+        0.06304690620222299,
+        0.09936658692212257,
+        0.7455133115855852
+      ],
+      "rvec": [
+        -0.028270164208752294,
+        0.02098781783758065,
+        1.5766032732808994
+      ],
+      "reprojection_rms_px": 6.236807234135019,
+      "estimated_inclination_deg": 1.8147797147745799,
+      "candidate_errors_px": [
+        12.394592597890574,
+        32.09331953381992
+      ],
+      "ambiguous": false
+    }
+  },
+  {
+    "center_range_m": 1.0185544084251272,
+    "optical_z_m": 1.0077533702538175,
+    "translation_m": [
+      0.035203066200405884,
+      0.143690541770928,
+      1.0077533702538175
+    ],
+    "rvec": [
+      -0.04564725399377408,
+      0.021924855412952467,
+      1.563566170248314
+    ],
+    "reprojection_rms_px": 4.854978443861474,
+    "estimated_inclination_deg": 2.614721126283731,
+    "candidate_errors_px": [
+      9.377665751246848,
+      14.483352529280353
+    ],
+    "ambiguous": false,
+    "image": "IMG_4767.png",
+    "actual_distance_m": 1.0,
+    "reference_metric": "center_range_m",
+    "measured_angle_deg": null,
+    "error_m": 0.018554408425127233,
+    "relative_error_pct": 1.8554408425127233,
+    "without_distortion": {
+      "center_range_m": 1.0074261157666975,
+      "optical_z_m": 0.9965102824092961,
+      "translation_m": [
+        0.035423356969001674,
+        0.14359603602595308,
+        0.9965102824092961
+      ],
+      "rvec": [
+        -0.07353358644904572,
+        0.05030608862442017,
+        1.563797503070077
+      ],
+      "reprojection_rms_px": 5.671296366751376,
+      "estimated_inclination_deg": 4.599931281807914,
+      "candidate_errors_px": [
+        10.41250270950798,
+        14.213980794264423
+      ],
+      "ambiguous": false
+    }
+  },
+  {
+    "center_range_m": 1.28273170504866,
+    "optical_z_m": 1.2757737527026602,
+    "translation_m": [
+      0.049805948284269645,
+      0.12377934628813636,
+      1.2757737527026602
+    ],
+    "rvec": [
+      -0.01728749707095607,
+      0.05319361733933343,
+      1.5719900459853673
+    ],
+    "reprojection_rms_px": 3.77487473590788,
+    "estimated_inclination_deg": 2.8846697348058052,
+    "candidate_errors_px": [
+      6.539637048936271,
+      7.238086005488311
+    ],
+    "ambiguous": false,
+    "image": "IMG_4764.png",
+    "actual_distance_m": 1.25,
+    "reference_metric": "center_range_m",
+    "measured_angle_deg": null,
+    "error_m": 0.032731705048659965,
+    "relative_error_pct": 2.618536403892797,
+    "without_distortion": {
+      "center_range_m": 1.2724172716621873,
+      "optical_z_m": 1.265438150357709,
+      "translation_m": [
+        0.049103238838535054,
+        0.12369669671850762,
+        1.265438150357709
+      ],
+      "rvec": [
+        0.0042855277679681525,
+        0.11389718750472953,
+        1.568955546619493
+      ],
+      "reprojection_rms_px": 4.117596426677727,
+      "estimated_inclination_deg": 5.8802036412978085,
+      "candidate_errors_px": [
+        6.623963778885585,
+        7.467815147495691
+      ],
+      "ambiguous": false
+    }
+  },
+  {
+    "center_range_m": 1.5172783127485021,
+    "optical_z_m": 1.5157708576791828,
+    "translation_m": [
+      0.03834420967126203,
+      0.05569476575174863,
+      1.5157708576791828
+    ],
+    "rvec": [
+      -0.05828909719411948,
+      -0.06357163257184127,
+      1.5259988266005573
+    ],
+    "reprojection_rms_px": 4.260377799175644,
+    "estimated_inclination_deg": 4.475703166260567,
+    "candidate_errors_px": [
+      5.423871578106046,
+      5.8827715750607
+    ],
+    "ambiguous": false,
+    "image": "IMG_4766.png",
+    "actual_distance_m": 1.5,
+    "reference_metric": "center_range_m",
+    "measured_angle_deg": null,
+    "error_m": 0.01727831274850211,
+    "relative_error_pct": 1.1518875165668074,
+    "without_distortion": {
+      "center_range_m": 1.511218566273342,
+      "optical_z_m": 1.509778189761631,
+      "translation_m": [
+        0.03550831959120755,
+        0.055592553540528354,
+        1.509778189761631
+      ],
+      "rvec": [
+        0.06873169275858362,
+        0.13115986120124543,
+        1.5205257207008402
+      ],
+      "reprojection_rms_px": 4.270512847837053,
+      "estimated_inclination_deg": 7.688660101403304,
+      "candidate_errors_px": [
+        5.427273876113715,
+        5.736273362493633
+      ],
+      "ambiguous": false
+    }
+  }
+]

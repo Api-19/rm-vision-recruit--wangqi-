@@ -1,0 +1,113 @@
+{
+  "files": [
+    {
+      "image": "IMG_4762.png",
+      "source_sha256": "790406f330b27751d92c65bd9f79252b8b1a4ef0e7d3d3625b23aa596e05226c",
+      "image_size": [
+        5712,
+        4284
+      ],
+      "selected_exif": {
+        "FocalLength": "6.764999865652793",
+        "FocalLengthIn35mmFilm": "24",
+        "LensModel": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+        "DigitalZoomRatio": "1.0014025245441796",
+        "FNumber": "1.7799999713880652"
+      },
+      "accepted": true,
+      "reason": "same_recorded_main_lens_as_calibration"
+    },
+    {
+      "image": "IMG_4763.png",
+      "source_sha256": "024547a67165c2173704a475d4a11b8e022310de282eb587888229d96420f123",
+      "image_size": [
+        4032,
+        3024
+      ],
+      "selected_exif": {
+        "FocalLength": "2.220000028611935",
+        "FocalLengthIn35mmFilm": "25",
+        "LensModel": "iPhone 17 Pro back triple camera 2.22mm f/2.2",
+        "FNumber": "2.2"
+      },
+      "accepted": false,
+      "reason": "lens_mismatch_2.22mm_f2.2"
+    },
+    {
+      "image": "IMG_4764.png",
+      "source_sha256": "274190220d08fd68a438ff5d39f056f15c44683a935958499d2b1c2e2fe6d9de",
+      "image_size": [
+        5712,
+        4284
+      ],
+      "selected_exif": {
+        "FocalLength": "6.764999865652793",
+        "FocalLengthIn35mmFilm": "24",
+        "LensModel": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+        "DigitalZoomRatio": "1.0014025245441796",
+        "FNumber": "1.7799999713880652"
+      },
+      "accepted": true,
+      "reason": "same_recorded_main_lens_as_calibration"
+    },
+    {
+      "image": "IMG_4765.png",
+      "source_sha256": "0a69c0a92b6a4413dd80800f80afc644af81778e453276e9383d46a681d1eecc",
+      "image_size": [
+        5712,
+        4284
+      ],
+      "selected_exif": {
+        "FocalLength": "6.764999865652793",
+        "FocalLengthIn35mmFilm": "24",
+        "LensModel": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+        "FNumber": "1.7799999713880652"
+      },
+      "accepted": true,
+      "reason": "same_recorded_main_lens_as_calibration"
+    },
+    {
+      "image": "IMG_4766.png",
+      "source_sha256": "5f1a6037e99fa5763759c0b80b7be5bc702c257cdf453329042562297e38083f",
+      "image_size": [
+        5712,
+        4284
+      ],
+      "selected_exif": {
+        "FocalLength": "6.764999865652793",
+        "FocalLengthIn35mmFilm": "24",
+        "LensModel": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+        "FNumber": "1.7799999713880652"
+      },
+      "accepted": true,
+      "reason": "same_recorded_main_lens_as_calibration"
+    },
+    {
+      "image": "IMG_4767.png",
+      "image_size": [
+        5712,
+        4284
+      ],
+      "source_sha256": "158f71c588d8504eb61697343457642f04e203e61f920c065ec5202feda9ff88",
+      "selected_exif": {
+        "FocalLength": "6.764999865652793",
+        "FocalLengthIn35mmFilm": "24",
+        "LensModel": "iPhone 17 Pro back triple camera 6.765mm f/1.78",
+        "FNumber": "1.7799999713880652"
+      },
+      "accepted": true,
+      "reason": "replacement same recorded main lens and resolution"
+    }
+  ],
+  "user_ruler_distances_m": [
+    0.5,
+    0.75,
+    1,
+    1.25,
+    1.5
+  ],
+  "rejected_distance_inferred_m": 1,
+  "distance_reference": "user confirmed lens position to paper center",
+  "assignment_is_inferred": true,
+  "replacement": "IMG_4767 replaces incompatible IMG_4763 for 1m"
+}

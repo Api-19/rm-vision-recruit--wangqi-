@@ -1,0 +1,142 @@
+[
+  {
+    "image": "IMG_4765.png",
+    "corners_px": [
+      [
+        4152,
+        1964
+      ],
+      [
+        4136,
+        3704
+      ],
+      [
+        1668,
+        3744
+      ],
+      [
+        1644,
+        1968
+      ]
+    ],
+    "actual_distance_m": 0.5,
+    "reference_metric": "center_range_m",
+    "angle_deg": null,
+    "distance_source": "user confirmed ruler from lens position to paper center",
+    "association_source": "Agent inferred relative paper image size; not explicit filename labels",
+    "annotation_source": "Agent visual annotation on 1428x1071 preview, coordinates multiplied by 4",
+    "annotation_uncertainty_note": "paper upper edge near door; pixel precision limited; no adjustment to match ruler values"
+  },
+  {
+    "image": "IMG_4762.png",
+    "corners_px": [
+      [
+        4012,
+        2136
+      ],
+      [
+        4012,
+        3296
+      ],
+      [
+        2380,
+        3284
+      ],
+      [
+        2384,
+        2128
+      ]
+    ],
+    "actual_distance_m": 0.75,
+    "reference_metric": "center_range_m",
+    "angle_deg": null,
+    "distance_source": "user confirmed ruler from lens position to paper center",
+    "association_source": "Agent inferred relative paper image size; not explicit filename labels",
+    "annotation_source": "Agent visual annotation on 1428x1071 preview, coordinates multiplied by 4",
+    "annotation_uncertainty_note": "paper upper edge near door; pixel precision limited; no adjustment to match ruler values"
+  },
+  {
+    "image": "IMG_4767.png",
+    "corners_px": [
+      [
+        3596,
+        2316
+      ],
+      [
+        3612,
+        3188
+      ],
+      [
+        2388,
+        3196
+      ],
+      [
+        2384,
+        2324
+      ]
+    ],
+    "actual_distance_m": 1.0,
+    "reference_metric": "center_range_m",
+    "angle_deg": null,
+    "distance_source": "user confirmed ruler lens position to paper center; replacement explicitly labeled 1m",
+    "association_source": "user explicit 1m label",
+    "annotation_source": "Agent visual annotation on 1428x1071 preview multiplied by4",
+    "annotation_uncertainty_note": "upper edge near door; no fitting to ruler"
+  },
+  {
+    "image": "IMG_4764.png",
+    "corners_px": [
+      [
+        3492,
+        2224
+      ],
+      [
+        3496,
+        2912
+      ],
+      [
+        2532,
+        2904
+      ],
+      [
+        2536,
+        2224
+      ]
+    ],
+    "actual_distance_m": 1.25,
+    "reference_metric": "center_range_m",
+    "angle_deg": null,
+    "distance_source": "user confirmed ruler from lens position to paper center",
+    "association_source": "Agent inferred relative paper image size; not explicit filename labels",
+    "annotation_source": "Agent visual annotation on 1428x1071 preview, coordinates multiplied by 4",
+    "annotation_uncertainty_note": "paper upper edge near door; pixel precision limited; no adjustment to match ruler values"
+  },
+  {
+    "image": "IMG_4766.png",
+    "corners_px": [
+      [
+        3340,
+        2012
+      ],
+      [
+        3364,
+        2584
+      ],
+      [
+        2564,
+        2620
+      ],
+      [
+        2540,
+        2052
+      ]
+    ],
+    "actual_distance_m": 1.5,
+    "reference_metric": "center_range_m",
+    "angle_deg": null,
+    "distance_source": "user confirmed ruler from lens position to paper center",
+    "association_source": "Agent inferred relative paper image size; not explicit filename labels",
+    "annotation_source": "Agent visual annotation on 1428x1071 preview, coordinates multiplied by 4",
+    "annotation_uncertainty_note": "paper upper edge near door; pixel precision limited; no adjustment to match ruler values"
+  }
+]

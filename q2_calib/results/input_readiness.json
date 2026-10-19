@@ -156,14 +156,41 @@
   "valid_chessboard_count": 19,
   "resolution_consistent": true,
   "calibration_input_ready": true,
-  "measurement_samples": [],
-  "valid_measurement_count": 0,
+  "measurement_samples": [
+    {
+      "sample": 1,
+      "issues": []
+    },
+    {
+      "sample": 2,
+      "issues": []
+    },
+    {
+      "sample": 3,
+      "issues": []
+    },
+    {
+      "sample": 4,
+      "issues": []
+    },
+    {
+      "sample": 5,
+      "issues": []
+    }
+  ],
+  "valid_measurement_count": 5,
   "needs_user": [
-    "本人实际测量方格边长",
-    "至少5组约0.5–3m真实距离与对应照片",
-    "统一镜头/变焦/分辨率和距离参考点",
-    "由本人填写学习总结"
+    "补约2–3m真实距离与照片",
+    "同距0/30/60度角度实验",
+    "核对由Agent推断的文件距离对应",
+    "本人学习总结"
   ],
   "note": "Readiness checks do not verify image ownership, ruler truth, pose diversity, or metric accuracy.",
-  "evidence": "19-view calibrate.py fit/detection_log.json; 9x6 corners all found"
+  "evidence": "19-view calibrate.py fit/detection_log.json; 9x6 corners all found",
+  "measurement_evidence": "q2_calib/results/a4_2026-10-19/REPORT.md",
+  "measurement_distance_range_m": [
+    0.5,
+    1.5
+  ],
+  "covers_approximately_3m": false
 }

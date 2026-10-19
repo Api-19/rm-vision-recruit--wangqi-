@@ -13,6 +13,46 @@
       "sha256": "c5f153918b4e8294ad6cf00edec297e68973fd342e1881f67dfc064ba29b060d"
     },
     {
+      "path": "q2_calib/results/a4_2026-10-19/REPORT.md",
+      "bytes": 2868,
+      "sha256": "2ca0d5b27aa487b4c55e0ed17f34201d9b693d2c22fbce1e280ad6ea2af7f177"
+    },
+    {
+      "path": "q2_calib/results/a4_2026-10-19/annotations.json",
+      "bytes": 3650,
+      "sha256": "92e894ac6a3c3f9790e7d52ca5ceac3005b8a173709ed7ea0822ef421cb7e9be"
+    },
+    {
+      "path": "q2_calib/results/a4_2026-10-19/distance_errors.png",
+      "bytes": 89035,
+      "sha256": "aef27c0fc95eb65624b8d2c5f775fbe69ba5f56ff2341f9681f43f94cf2e76ce"
+    },
+    {
+      "path": "q2_calib/results/a4_2026-10-19/input_audit.json",
+      "bytes": 3409,
+      "sha256": "ee467688cc27e11d0e9c6c004d1e8d4c467ea11d1605e1caadf42098d07e8a75"
+    },
+    {
+      "path": "q2_calib/results/a4_2026-10-19/measurements.csv",
+      "bytes": 702,
+      "sha256": "0b1a949104bda5399d54544e1cf45adb168e7235a1b0ba514b554f40123fdbf4"
+    },
+    {
+      "path": "q2_calib/results/a4_2026-10-19/measurements.json",
+      "bytes": 6471,
+      "sha256": "23ad04ab3e4e4b41dd4cabdb6bd7add86348dc26da4d7561f1d3adf0907da061"
+    },
+    {
+      "path": "q2_calib/results/a4_2026-10-19/run.txt",
+      "bytes": 195,
+      "sha256": "6318868c3972c67602e693da27e3ee655d2c076423006cbc4b532381e3b5a6ba"
+    },
+    {
+      "path": "q2_calib/results/a4_2026-10-19/statistics.json",
+      "bytes": 209,
+      "sha256": "1ed853a9058556ed8a5a2f04b456655520a94b14602d52ded2c483f2979a40d9"
+    },
+    {
       "path": "q2_calib/results/display_27mm_19views_2026-10-18/REPORT.md",
       "bytes": 3276,
       "sha256": "fa769e4172d8e16fe96380e44aa211f537a42025bdf4ad6105a10a20951b11e2"
@@ -114,8 +154,8 @@
     },
     {
       "path": "q2_calib/results/input_readiness.json",
-      "bytes": 2930,
-      "sha256": "5af6141cc44e89335d3cee03cd239050b821c74f59566f05bc3f6dec257b230e"
+      "bytes": 3319,
+      "sha256": "2627dfdcfe8fbc6af0d5b39a7bc3ff42eff7ee98c37b126c7d982e2ad948734c"
     },
     {
       "path": "qB_sentry/results/auto_registration/candidates.json",
@@ -809,8 +849,8 @@
     },
     {
       "path": "evidence/README.md",
-      "bytes": 4405,
-      "sha256": "137c9fc52784f7a24472ce0bcc2ce8e2efc0a34c4b2199f87e99c82d631e22eb"
+      "bytes": 4721,
+      "sha256": "508367489b30071364d1f7aa10e6911fdbbcbfa2d414db24d8a3cd2f61e2a372"
     },
     {
       "path": "extra/02_architecture.md",
@@ -832,5 +872,6 @@
       "bytes": 775,
       "sha256": "57696c7271d20fb29e4f8d2288eeb0db309747ad19f99288e6d4c541fa48a101"
     }
-  ]
+  ],
+  "updated_note": "A4 five-view real-input results added 2026-10-19"
 }

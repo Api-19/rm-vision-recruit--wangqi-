@@ -1,0 +1,7 @@
+{
+  "count": 5,
+  "mae_m": 0.017275796654104992,
+  "rmse_m": 0.01972109385370683,
+  "has_at_least_5_samples": true,
+  "note": "Sample count alone does not prove 0.5\u20133m coverage or genuine measurements."
+}

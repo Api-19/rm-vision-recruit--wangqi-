@@ -16,6 +16,8 @@
 | B决策发挥 | [状态逻辑](../qB_sentry/results/decision/state_machine.md)、[优先级图](2026-10-19/decision_priority.png)、[仿真图](../qB_sentry/results/decision/simulation.png)、[轨迹数据](../qB_sentry/results/decision/simulation.csv) | 离线编排场景，不是实战验证 |
 | 附加题 | [二至四作答](../extra/README.md) | 资料来源已核验；附加一训练/ONNX/测速未完成 |
 
+新增[A4五组测距报告](../q2_calib/results/a4_2026-10-19/REPORT.md)、[误差图](../q2_calib/results/a4_2026-10-19/distance_errors.png)、[数据](../q2_calib/results/a4_2026-10-19/measurements.csv)。原IMG_4763镜头不符已排除，补拍4767入组。含照片标注图另存在忽略目录q2_calib/input/2026-10-19-a4/fit。
+
 ## 私人照片与去畸变成果（保存在本地，不入Git）
 
 仓库内 `q2_calib/input/2026-10-18-display-27mm-19/` 保留：
@@ -31,4 +33,4 @@
 
 ## 尚缺的提交证据
 
-A4至少5组真实尺测及误差曲线、同距三角度分析、Ubuntu22.04命令截图、场地异常实体/地标核查，以及本人学习总结。真实桌面截图尚未采集；现有图表与原始日志已保存，日志展示图均明确注明身份。不要将当前目录视为已满足全部提交要求。
+A4约2–3m远端、同距三角度分析、Ubuntu22.04命令截图、场地异常实体/地标核查，以及本人学习总结。真实桌面截图尚未采集；现有图表与原始日志已保存，日志展示图均明确注明身份。不要将当前目录视为已满足全部提交要求。
