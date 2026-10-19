@@ -12,4 +12,3 @@ python tools/complete_evidence.py
 以上为已执行命令的解释器无关表示。compare stdout存于calibration_compare.txt，测试和环境stdout/stderr分别存于tests.txt和environment.txt。环境日志仅将用户目录替换为占位。比较数值取实际结果，原始角点缓存仍在本地忽略目录。
 
 另生成私人去畸变预览与文件清单，保存于input目录；不进入Git。附加题二至四依据官方来源整理，不生成虚构运行日志。
-

@@ -764,8 +764,8 @@
     },
     {
       "path": "evidence/2026-10-19/RUN.md",
-      "bytes": 904,
-      "sha256": "ac52f70812d90a807b8b607ab2140fcf676d57241ed38c2f9cf9f5573fb82f99"
+      "bytes": 903,
+      "sha256": "1fe6aee53398baf68deeb010978b5e70d503d86edd127f656ea941491cccd749"
     },
     {
       "path": "evidence/2026-10-19/calibration_compare.txt",
