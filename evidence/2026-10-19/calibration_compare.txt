@@ -1,0 +1,1 @@
+Compared supplied observations. Wrong board scale changes translation scale, not intrinsic pixel scale.
