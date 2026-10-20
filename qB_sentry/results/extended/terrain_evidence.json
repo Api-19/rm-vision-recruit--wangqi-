@@ -1,0 +1,55 @@
+{
+  "ramp_cells": 21357,
+  "step_cells": 15278,
+  "profiles": [
+    {
+      "name": "ramp_A",
+      "from": [
+        21.765,
+        2.3
+      ],
+      "to": [
+        21.765,
+        3.5
+      ],
+      "samples": 100,
+      "known_samples": 100,
+      "max_adjacent_sample_jump_m": 0.015746731721851148,
+      "free_center_fraction": 1.0,
+      "disk_clear_fraction": 0.17
+    },
+    {
+      "name": "step_edge",
+      "from": [
+        7.925,
+        2.675
+      ],
+      "to": [
+        8.575,
+        2.675
+      ],
+      "samples": 100,
+      "known_samples": 100,
+      "max_adjacent_sample_jump_m": 0.20055737895319603,
+      "free_center_fraction": 0.35,
+      "disk_clear_fraction": 0.0
+    },
+    {
+      "name": "ramp_B",
+      "from": [
+        11.625,
+        0.35
+      ],
+      "to": [
+        11.625,
+        0.85
+      ],
+      "samples": 100,
+      "known_samples": 100,
+      "max_adjacent_sample_jump_m": 0.01880349627647873,
+      "free_center_fraction": 1.0,
+      "disk_clear_fraction": 0.0
+    }
+  ],
+  "semantics": "geometric candidates; inspect profiles; no per-cell independent labels"
+}
