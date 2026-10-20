@@ -1,0 +1,13 @@
+{
+  "not_an_exam_query": true,
+  "start_world": [
+    0.2749999999999999,
+    -1.2750000000000001
+  ],
+  "goal_world": [
+    6.2250000000000005,
+    12.925
+  ],
+  "length_m": 18.045331880577407,
+  "continuous_check_passed": true
+}

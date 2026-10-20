@@ -1,0 +1,142 @@
+[
+  {
+    "reason": "goal_disk_collides_or_crosses_boundary",
+    "expanded": 0,
+    "seconds": 1.1249212548136711e-06,
+    "cost_m": null,
+    "query": 1,
+    "algorithm": "astar",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "goal_disk_collides_or_crosses_boundary",
+    "expanded": 0,
+    "seconds": 1.4170072972774506e-06,
+    "cost_m": null,
+    "query": 1,
+    "algorithm": "dijkstra",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "start_disk_collides_or_crosses_boundary",
+    "expanded": 0,
+    "seconds": 2.0830193534493446e-06,
+    "cost_m": null,
+    "query": 2,
+    "algorithm": "astar",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "start_disk_collides_or_crosses_boundary",
+    "expanded": 0,
+    "seconds": 1.0830117389559746e-06,
+    "cost_m": null,
+    "query": 2,
+    "algorithm": "dijkstra",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary",
+    "expanded": 0,
+    "seconds": 1.125037670135498e-06,
+    "cost_m": null,
+    "query": 3,
+    "algorithm": "astar",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary",
+    "expanded": 0,
+    "seconds": 1.4579854905605316e-06,
+    "cost_m": null,
+    "query": 3,
+    "algorithm": "dijkstra",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "start_disk_collides_or_crosses_boundary",
+    "expanded": 0,
+    "seconds": 1.084059476852417e-06,
+    "cost_m": null,
+    "query": 4,
+    "algorithm": "astar",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "start_disk_collides_or_crosses_boundary",
+    "expanded": 0,
+    "seconds": 1.00000761449337e-06,
+    "cost_m": null,
+    "query": 4,
+    "algorithm": "dijkstra",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "goal_disk_collides_or_crosses_boundary",
+    "expanded": 0,
+    "seconds": 1.4581019058823586e-06,
+    "cost_m": null,
+    "query": 5,
+    "algorithm": "astar",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "goal_disk_collides_or_crosses_boundary",
+    "expanded": 0,
+    "seconds": 1.7919810488820076e-06,
+    "cost_m": null,
+    "query": 5,
+    "algorithm": "dijkstra",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "goal_disk_collides_or_crosses_boundary",
+    "expanded": 0,
+    "seconds": 1.291045919060707e-06,
+    "cost_m": null,
+    "query": 6,
+    "algorithm": "astar",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "goal_disk_collides_or_crosses_boundary",
+    "expanded": 0,
+    "seconds": 1.500011421740055e-06,
+    "cost_m": null,
+    "query": 6,
+    "algorithm": "dijkstra",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "start_disk_collides_or_crosses_boundary;goal_outside_map",
+    "expanded": 0,
+    "seconds": 1.00000761449337e-06,
+    "cost_m": null,
+    "query": 7,
+    "algorithm": "astar",
+    "length_m": null,
+    "checker": "not_run"
+  },
+  {
+    "reason": "start_disk_collides_or_crosses_boundary;goal_outside_map",
+    "expanded": 0,
+    "seconds": 1.0830117389559746e-06,
+    "cost_m": null,
+    "query": 7,
+    "algorithm": "dijkstra",
+    "length_m": null,
+    "checker": "not_run"
+  }
+]

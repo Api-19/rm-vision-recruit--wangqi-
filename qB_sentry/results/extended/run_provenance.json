@@ -1,0 +1,14 @@
+{
+  "source_sha256": "682ffb85e5d527fe62c003c9a906d9045763ea671325003e6713e64e4e30d6cd",
+  "source_name": "rmuc_2025_map.pcd",
+  "metadata": "qB_sentry/results/cloud_map/processing.json",
+  "args": {
+    "resolution": 0.05,
+    "radius_m": 0.3,
+    "hypotheses": [
+      0,
+      180
+    ]
+  },
+  "note": "Agent-run study. No change to exam endpoints. No independent semantic or orientation ground truth."
+}

@@ -1,0 +1,50 @@
+{
+  "candidates": [
+    {
+      "initial_degrees": 0,
+      "angle_deg": 0.024558309820329548,
+      "rotation": [
+        [
+          0.9999999081410068,
+          -0.000428623351965304
+        ],
+        [
+          0.000428623351965304,
+          0.9999999081410068
+        ]
+      ],
+      "translation": [
+        -0.9944979150578117,
+        -7.246064857162703
+      ],
+      "mean_truncated_distance_m": 0.2156743226210976,
+      "median_distance_m": 0.1257724001571022,
+      "within_015m_fraction": 0.5745714285714286,
+      "optimizer_success": true
+    },
+    {
+      "initial_degrees": 180,
+      "angle_deg": 180.25052674221865,
+      "rotation": [
+        [
+          -0.9999904405648891,
+          0.004372502583072146
+        ],
+        [
+          -0.004372502583072146,
+          -0.9999904405648891
+        ]
+      ],
+      "translation": [
+        22.892241271611432,
+        4.409143638044802
+      ],
+      "mean_truncated_distance_m": 0.21648681848433904,
+      "median_distance_m": 0.12767354718806823,
+      "within_015m_fraction": 0.5771428571428572,
+      "optimizer_success": true
+    }
+  ],
+  "human_landmarks": false,
+  "keep_both_hypotheses": true
+}

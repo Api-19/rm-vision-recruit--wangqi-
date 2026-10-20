@@ -1,0 +1,58 @@
+[
+  {
+    "query": 1,
+    "algorithm": "astar",
+    "median_seconds": 0.07297887501772493,
+    "expanded": 28911,
+    "grid_cost_m": 21.209545442950617
+  },
+  {
+    "query": 2,
+    "algorithm": "astar",
+    "median_seconds": 0.10989312501624227,
+    "expanded": 42984,
+    "grid_cost_m": 27.624978336205704
+  },
+  {
+    "query": 4,
+    "algorithm": "astar",
+    "median_seconds": 0.08156545902602375,
+    "expanded": 33122,
+    "grid_cost_m": 26.015180361561047
+  },
+  {
+    "query": 5,
+    "algorithm": "astar",
+    "median_seconds": 0.15068225003778934,
+    "expanded": 67556,
+    "grid_cost_m": 57.20878784786758
+  },
+  {
+    "query": 1,
+    "algorithm": "dijkstra",
+    "median_seconds": 0.08225025003775954,
+    "expanded": 42500,
+    "grid_cost_m": 21.209545442950613
+  },
+  {
+    "query": 2,
+    "algorithm": "dijkstra",
+    "median_seconds": 0.1363241660874337,
+    "expanded": 68972,
+    "grid_cost_m": 27.624978336205665
+  },
+  {
+    "query": 4,
+    "algorithm": "dijkstra",
+    "median_seconds": 0.1499535000184551,
+    "expanded": 75636,
+    "grid_cost_m": 26.015180361561036
+  },
+  {
+    "query": 5,
+    "algorithm": "dijkstra",
+    "median_seconds": 0.18404204200487584,
+    "expanded": 94124,
+    "grid_cost_m": 57.208787847867846
+  }
+]

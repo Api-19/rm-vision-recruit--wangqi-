@@ -1,0 +1,9 @@
+{
+  "voxel_points": 1009274,
+  "statistical_outliers": 10374,
+  "below_ground_points": 1768,
+  "union_removed": 10496,
+  "retained": 998778,
+  "below_ground_threshold_m": -0.15,
+  "std_ratio": 2.5
+}

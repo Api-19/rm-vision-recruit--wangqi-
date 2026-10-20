@@ -1,0 +1,15 @@
+orientation_deg,query,algorithm,generated_length_m,reference_length_m,generated_status,reference_status
+0,1,astar,,21.22368757857423,goal_disk_collides_or_crosses_boundary,ok
+0,2,astar,,27.6391204718293,start_disk_collides_or_crosses_boundary,ok
+0,3,astar,,,start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,start_disk_collides_or_crosses_boundary
+0,4,astar,,26.029322497184637,start_disk_collides_or_crosses_boundary,ok
+0,5,astar,,57.22292998349174,goal_disk_collides_or_crosses_boundary,ok
+0,6,astar,,,goal_disk_collides_or_crosses_boundary,goal_disk_collides_or_crosses_boundary
+0,7,astar,,,start_disk_collides_or_crosses_boundary;goal_outside_map,goal_outside_map
+180,1,astar,,21.22368757857423,start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,ok
+180,2,astar,,27.6391204718293,disconnected_on_conservative_grid,ok
+180,3,astar,,,start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,start_disk_collides_or_crosses_boundary
+180,4,astar,,26.029322497184637,start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,ok
+180,5,astar,,57.22292998349174,start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,ok
+180,6,astar,,,start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,goal_disk_collides_or_crosses_boundary
+180,7,astar,,,goal_outside_map,goal_outside_map

@@ -1,0 +1,15 @@
+reason,expanded,seconds,cost_m,query,algorithm,length_m,checker
+start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,0,2.124928869307041e-06,,1,astar,,not_run
+start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,0,1.459033228456974e-06,,1,dijkstra,,not_run
+disconnected_on_conservative_grid,13964,0.03421283303759992,,2,astar,,not_run
+disconnected_on_conservative_grid,13964,0.03075124998576939,,2,dijkstra,,not_run
+start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,0,1.1249212548136711e-06,,3,astar,,not_run
+start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,0,1.374981366097927e-06,,3,dijkstra,,not_run
+start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,0,1.7079291865229607e-06,,4,astar,,not_run
+start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,0,1.0830117389559746e-06,,4,dijkstra,,not_run
+start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,0,9.170034900307655e-07,,5,astar,,not_run
+start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,0,1.0830117389559746e-06,,5,dijkstra,,not_run
+start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,0,9.160721674561501e-07,,6,astar,,not_run
+start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,0,1.00000761449337e-06,,6,dijkstra,,not_run
+goal_outside_map,0,1.250067725777626e-06,,7,astar,,not_run
+goal_outside_map,0,1.250067725777626e-06,,7,dijkstra,,not_run
