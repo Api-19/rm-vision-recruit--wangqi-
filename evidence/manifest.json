@@ -14,13 +14,13 @@
     },
     {
       "path": "q2_calib/results/a4_2026-10-19/REPORT.md",
-      "bytes": 2868,
-      "sha256": "2ca0d5b27aa487b4c55e0ed17f34201d9b693d2c22fbce1e280ad6ea2af7f177"
+      "bytes": 2903,
+      "sha256": "3ad4b80d8f73785bd6885fe2c8b00e8b2c8a68f54879e9a149375619d4026df0"
     },
     {
       "path": "q2_calib/results/a4_2026-10-19/annotations.json",
-      "bytes": 3650,
-      "sha256": "92e894ac6a3c3f9790e7d52ca5ceac3005b8a173709ed7ea0822ef421cb7e9be"
+      "bytes": 4526,
+      "sha256": "ba525e9cf84ba3cfa792ed83dd1bc4a012ea4da2ee56f9d18e30fb5a57a13514"
     },
     {
       "path": "q2_calib/results/a4_2026-10-19/distance_errors.png",
@@ -1584,8 +1584,8 @@
     },
     {
       "path": "evidence/README.md",
-      "bytes": 5728,
-      "sha256": "fe2ef9d321bb21ece4619fab4986d07174d399aa29ddbf163896f5aae3a20913"
+      "bytes": 6014,
+      "sha256": "60137352a3a7a65cda27849003812c5b6946d0a29bcf3519f74adab6693b2bd3"
     },
     {
       "path": "extra/02_architecture.md",
@@ -1606,7 +1606,128 @@
       "path": "extra/README.md",
       "bytes": 775,
       "sha256": "57696c7271d20fb29e4f8d2288eeb0db309747ad19f99288e6d4c541fa48a101"
+    },
+    {
+      "path": "q2_calib/results/display_27mm_19views_2026-10-18/undistort_comparison.jpg",
+      "bytes": 195009,
+      "sha256": "d87cd3c6a4d3d4973ef3f9b97e16c3b9752a5c934b1101e06d83ff3e31ba5171"
+    },
+    {
+      "path": "qB_sentry/summary.csv",
+      "bytes": 562,
+      "sha256": "2a3d48b4ac26cc40958fc0b71de5d8fa15fd02328d60bf5b1faf1004e7b84292"
+    },
+    {
+      "path": "qB_sentry/path1.csv",
+      "bytes": 5592,
+      "sha256": "262043d9e7022a24010cee9be7f95ae15b9e5b8109a870a4e06f249971483696"
+    },
+    {
+      "path": "qB_sentry/path2.csv",
+      "bytes": 7034,
+      "sha256": "ab9be5a85c5aba0453ec8dfc7517b016db125ce7ce10ddd8b6d317804e27642b"
+    },
+    {
+      "path": "qB_sentry/path3.csv",
+      "bytes": 13001,
+      "sha256": "01981eef54a26f583743e85e51fe71b15d64ed1801354e4d2ea307892f30d23d"
+    },
+    {
+      "path": "qB_sentry/path4.csv",
+      "bytes": 6802,
+      "sha256": "d178f86f1a91dfa1c8cd7b57899e2d0161914db4c2a0ada65832cfa4d9496751"
+    },
+    {
+      "path": "qB_sentry/path5.csv",
+      "bytes": 15055,
+      "sha256": "83ef3a329860137acb136ae0e307ba8d5b187b44bd62011a9c7d3f72f2f20426"
+    },
+    {
+      "path": "q1_env/ubuntu/01_lsb_release_ls.png",
+      "bytes": 107775,
+      "sha256": "8cea02ececf443342139fc887b13ba2200e652b26a5f13687e6b91e9511176d2"
+    },
+    {
+      "path": "q1_env/ubuntu/02_top.png",
+      "bytes": 223245,
+      "sha256": "a2516cbe7154e333105402eb83300d2ee48f9f7c3bda5025e047e721be033512"
+    },
+    {
+      "path": "q1_env/ubuntu/03_cpuinfo.png",
+      "bytes": 76990,
+      "sha256": "2a8b5af33f85c62f7868a6539f87e9a93d65c2f4d55efe13d482361f9c88e25b"
+    },
+    {
+      "path": "qB_sentry/handwritten/A*path1.csv",
+      "bytes": 5592,
+      "sha256": "262043d9e7022a24010cee9be7f95ae15b9e5b8109a870a4e06f249971483696"
+    },
+    {
+      "path": "qB_sentry/handwritten/A*path2.csv",
+      "bytes": 7034,
+      "sha256": "ab9be5a85c5aba0453ec8dfc7517b016db125ce7ce10ddd8b6d317804e27642b"
+    },
+    {
+      "path": "qB_sentry/handwritten/A*path3.csv",
+      "bytes": 13001,
+      "sha256": "01981eef54a26f583743e85e51fe71b15d64ed1801354e4d2ea307892f30d23d"
+    },
+    {
+      "path": "qB_sentry/handwritten/A*path4.csv",
+      "bytes": 6802,
+      "sha256": "d178f86f1a91dfa1c8cd7b57899e2d0161914db4c2a0ada65832cfa4d9496751"
+    },
+    {
+      "path": "qB_sentry/handwritten/A*path5.csv",
+      "bytes": 15055,
+      "sha256": "83ef3a329860137acb136ae0e307ba8d5b187b44bd62011a9c7d3f72f2f20426"
+    },
+    {
+      "path": "qB_sentry/handwritten/checker_output.txt",
+      "bytes": 765,
+      "sha256": "5914460614f3ae977f07053be37fc10f1a255a371ce292abe9e9b939b1a357ff"
+    },
+    {
+      "path": "qB_sentry/handwritten/checker_screenshot_path3.png",
+      "bytes": 62868,
+      "sha256": "fa136754c4da54f4509987356267efa80dfb9f7b1948fc86987ddb0fac69e4d5"
+    },
+    {
+      "path": "qB_sentry/handwritten/dijkstra_path1.csv",
+      "bytes": 5592,
+      "sha256": "7682a25d3f2c6febf4286a03eb0bf6333f5f1c3eb3088fc681c85c343b1406a9"
+    },
+    {
+      "path": "qB_sentry/handwritten/dijkstra_path2.csv",
+      "bytes": 7048,
+      "sha256": "92cc6bb7fa73876bad20f6c2847967741eee257f54ad0b89948d5ed88e15cbf8"
+    },
+    {
+      "path": "qB_sentry/handwritten/dijkstra_path3.csv",
+      "bytes": 13008,
+      "sha256": "d5fd36c65a086077ce17ecb83ff215ff5539b58627923a60a0e36c472edc7481"
+    },
+    {
+      "path": "qB_sentry/handwritten/dijkstra_path4.csv",
+      "bytes": 6857,
+      "sha256": "9ffddebbc54b74ecc66c22b2d2946e37c3e37145ad62da6e8cdb23acbe21759a"
+    },
+    {
+      "path": "qB_sentry/handwritten/dijkstra_path5.csv",
+      "bytes": 15068,
+      "sha256": "e44f6b01529384ec77f759c80b85485c82c8a821e61a060959514a6ad82b470a"
+    },
+    {
+      "path": "qB_sentry/handwritten/plan.py",
+      "bytes": 6223,
+      "sha256": "7f4d6a634c34fe2ff3df888db09c09e8480026bfeb3f892462379d0703959f71"
+    },
+    {
+      "path": "qB_sentry/handwritten/run_output.txt",
+      "bytes": 858,
+      "sha256": "8ecbaf22b211d3d8e8aa0b1b9fcb9b4542b21f03d8c32de8bf4e7c085007484c"
     }
   ],
-  "updated_note": "2026-10-20 angle photos: fixed-height capture confirmed"
+  "updated_note": "2026-10-20 angle photos: fixed-height capture confirmed",
+  "updated_at": "2026-10-20T23:13:42.224765+08:00"
 }
