@@ -36,9 +36,10 @@ qB_sentry/
     dijkstra_path1~5.csv  Dijkstra 路径
     run_output.txt        运行输出（代价、扩展数）
     checker_output.txt    check_path.py 的检查日志
+  path1~5.csv             正式提交的路径（即 handwritten/ 中的 A* 结果）
+  summary.csv             7 组查询汇总：路径长度、扩展数，或无法到达的原因
   *.py                    Codex 生成的点云建图、搜索、决策代码
-  path1/2/4/5.csv         Codex 版本的路径（第 3 组误判，见 3.2 节）
-  results/                Codex 版本的过程图和实验结果
+  results/                Codex 版本的过程图和实验结果（其路径在 results/given_map/，第 3 组误判）
 extra/                    附加题
 tests/                    Codex 生成的测试
 ```
@@ -87,6 +88,7 @@ cd qB_sentry/handwritten && python plan.py
 
 - A\* 与 Dijkstra 的代价完全相同（两者都保证最短），A\* 的扩展数少 19%～57%。第 4 组路径较直，A\* 省得最多；第 3 组需要绕远路，h 的引导作用有限，省得最少。
 - 我的路径比 Codex 版本短 0.3～0.5 m。Codex 把障碍当作有面积的方块并额外扣掉半格，安全区更窄，路径只能绕得更远；这也是它把第 3 组判为不可达的原因。
+- 正式提交的路径为 [`qB_sentry/path1~5.csv`](qB_sentry/)（与 `handwritten/` 中的 A\* 结果相同），汇总表见 [`qB_sentry/summary.csv`](qB_sentry/summary.csv)。
 - 检查日志：[`checker_output.txt`](qB_sentry/handwritten/checker_output.txt)，10 条路径（A\* 和 Dijkstra 各 5 条）全部"问题 0 处，通过"。
 
 ### 3.3 B 题：点云与栅格（AI 辅助）

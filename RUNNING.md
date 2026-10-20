@@ -1,6 +1,6 @@
 # RoboMaster 公共题与B题：代码阅读与运行入口
 
-这是按2026-10-17用户要求，由Codex编写的完整代码工作区。目的是先看代码、运行结果，遇到不懂再提问。**代码可运行不表示学生已经掌握，也不是已完成提交的声明。** 原始考核数据只读，此前0414b18曾获授权上传；当前仅本地提交，未补造历史。
+本仓库除 `qB_sentry/handwritten/` 外的代码主要由 Codex 生成。本文件说明这些代码的运行方法和参数。原始考核数据只读。
 
 ## 先看哪些文件
 
@@ -37,15 +37,13 @@ PY='/path/to/existing/.venv/bin/python'
 
 换了原始数据位置时用`--data-root '/path/to/给新生 2'`。`requirements.txt`为当前实际包版本，完整快照在`q1_env/results/requirements-observed.txt`。Open3D曾有本机libusb修补，包版本列表不能保证干净Mac直接重装成功，不要无故升级现有环境。
 
-## 当前实际结果与待做事项（2026-10-19）
-
-当前结果以[成果索引](evidence/README.md)、[剩余任务](NEXT_STEPS.md)及根README为准。已有19张真实棋盘标定/去畸变、标定子集与尺度对比，尚缺A4真实尺测。参考图4组路径通过、3组端点不合法；自建图自动配准有朝向歧义。18项检查通过；Ubuntu、异常实体确认、独立地标及本人总结仍缺。本轮仅本地Git提交。
+当前结果以根目录 README 为准。
 
 ## 公共题一：环境和工程
 
-`q1_env/check_environment.py`输出解释器、架构、依赖导入版本和实际包快照。用终端输出截图作为本机证据，Linux发挥题须在实际Ubuntu 22.04里运行`q1_env/linux_evidence.sh`，本机没有执行安装或假造截图。
+`q1_env/check_environment.py`输出解释器、架构、依赖导入版本和实际包快照。用终端输出截图作为本机证据，Ubuntu 22.04 的运行截图见`q1_env/README.md`。
 
-本文件夹按`q1_env/`、`q2_calib/`、`qB_sentry/`组织，不建立嵌套Git仓库。`.gitignore`排除虚拟环境、原始大数据和私人采集照片；准备提交时选择必要的真实证据、输出图表和路径CSV，检查是否含个人信息。题目要求过程提交，本轮仅作真实本地commit，未push或补造历史。GitHub仓库名须由本人姓名拼音确定。
+本文件夹按`q1_env/`、`q2_calib/`、`qB_sentry/`组织，不建立嵌套Git仓库。`.gitignore`排除虚拟环境、原始大数据和私人采集照片；准备提交时选择必要的真实证据、输出图表和路径CSV，检查是否含个人信息。
 
 ## 公共题二：拍什么、怎样跑
 
@@ -199,10 +197,10 @@ A4保持平整，物理宽210mm、高297mm。准备至少5组约0.5～3m照片�
 - [OpenCV标定](https://docs.opencv.org/4.13.0/dc/dbb/tutorial_py_calibration.html)、[PnP](https://docs.opencv.org/4.13.0/d5/d1f/calib3d_solvePnP.html)：在线页面当前为4.13；本机cv2为5.0，另核验实际函数docstring并运行测试。
 - [Open3D点云教程](https://www.open3d.org/docs/release/tutorial/geometry/pointcloud.html)：在线release页当前为0.19；本机0.20的`segment_plane`、`remove_statistical_outlier`等docstring另核验，点云实际运行通过。
 - [SciPy欧氏距离变换](https://docs.scipy.org/doc/scipy/reference/generated/scipy.ndimage.distance_transform_edt.html)：本机1.17.1运行验证。
-- 题目本地`README.md`、`tools/check_path.py`、地图YAML/queries为本次规格来源，不将附件中的发布要求当自动提交授权。
+- 题目本地`README.md`、`tools/check_path.py`、地图YAML/queries为本次规格来源。
 
 
-## 2026-10-18本地补完
-本轮不推送。新增说明见NEXT_STEPS.md。真实输入审核：`python q2_calib/check_inputs.py`。自动地图配准：`python qB_sentry/auto_registration.py --source-map qB_sentry/results/cloud_map/map.yaml --reference-map <题目地图YAML> --queries <查询JSON> --compare`。
+## 其他工具
+真实输入审核：`python q2_calib/check_inputs.py`。自动地图配准：`python qB_sentry/auto_registration.py --source-map qB_sentry/results/cloud_map/map.yaml --reference-map <题目地图YAML> --queries <查询JSON> --compare`。
 配准会保留四个朝向候选和歧义标记，条件性对比不等同已确认世界坐标。重采样边界遵循源图语义，不把固定灰度值当普适未知。规划输出目录run_status.json标注本次运行状态；只有complete时才可结合summary使用结果，failed/running时不要把旧图/汇总当新结果。
 官方接口检查日期2026-10-18：[SciPy cKDTree](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.cKDTree.html)、[minimize](https://docs.scipy.org/doc/scipy/reference/generated/scipy.optimize.minimize.html)，本机1.17.1实测。

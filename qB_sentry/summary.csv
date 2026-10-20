@@ -1,0 +1,8 @@
+query,start_x,start_y,goal_x,goal_y,result,astar_length_m,astar_expanded,dijkstra_expanded,reason
+1,-2.26,-1.36,11.0,-5.82,reachable,20.9388,29988,44861,
+2,17.4,4.84,3.35,-4.11,reachable,27.3543,44657,72408,
+3,19.65,-1.36,5.25,4.99,reachable,50.5694,84516,104163,
+4,12.24,3.59,0.1,-4.21,reachable,25.7445,34397,79240,
+5,17.15,-7.26,1.4,4.74,reachable,56.6967,70848,98945,
+6,-2.26,-1.36,15.0,1.54,unreachable,,,,goal is 0.25 m from obstacle (< robot radius 0.30 m)
+7,17.4,4.84,30.0,3.0,unreachable,,,,goal (30.0 3.0) is outside the map (x range -3.58 to 25.57 m)

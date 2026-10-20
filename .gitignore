@@ -227,3 +227,8 @@ q2_calib/input/
 *.mp4
 *.npz
 *.dylib
+
+# 与 Codex 协作的过程文件（仅本地保留）
+AGENTS.md
+LOCAL_WORK.md
+NEXT_STEPS.md
