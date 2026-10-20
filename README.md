@@ -11,7 +11,7 @@
 | 题一：Python 与依赖 | 完成 | [环境证据](q1_env/results/environment.json)、[包快照](q1_env/results/requirements-observed.txt) |
 | 题一：Git 管理 | 完成 | 考核期间持续提交 |
 | 题一发挥：Ubuntu 22.04 | 完成 | Multipass 虚拟机，Ubuntu 22.04.5 LTS；`lsb_release`、`ls -la`、`top`、`cpuinfo` 截图见 [q1_env](q1_env/README.md) |
-| 题二：标定、去畸变 | 完成（AI 辅助） | 本人拍摄 19 张棋盘图，RMS 0.5254 px，[标定报告](q2_calib/results/display_27mm_19views_2026-10-18/REPORT.md) |
+| 题二：标定、去畸变 | 完成（AI 辅助） | 本人拍摄 19 张棋盘图，RMS 0.5254 px，[标定报告](q2_calib/results/display_27mm_19views_2026-10-18/REPORT.md)、[去畸变对照图](q2_calib/results/display_27mm_19views_2026-10-18/undistort_comparison.jpg) |
 | 题二：A4 测距 | 部分完成（AI 辅助） | 5 组 0.5～1.5 m 实测对比，[测距报告](q2_calib/results/a4_2026-10-19/REPORT.md)；缺 2～3 m 远端 |
 | 题二发挥：角度、对比实验 | 部分完成（AI 辅助） | [标定对比](q2_calib/results/display_27mm_19views_2026-10-18/variants/REPORT.md)、[斜拍实验](q2_calib/results/angle_2026-10-20/REPORT.md)；斜拍未保持同一距离 |
 | B：点云预处理、地面识别 | 完成（AI 辅助） | [处理记录](qB_sentry/results/cloud_map/processing.json)、[过程图](qB_sentry/results/cloud_map/04_terrain_map.png) |
@@ -60,6 +60,10 @@ python plan.py <地图yaml> <queries.json>
 
 - **内参含义**：fx、fy 是以像素为单位的焦距，cx、cy 是主点坐标。像素接近正方形时，fx 与 fy 接近。
 - **重投影误差**：把 3D 角点按标定结果投影回图像，与实际检测到的角点之间的像素偏差。它衡量的是模型和数据的吻合程度，不能单独证明测距准确。
+
+去畸变前后对照（左：原图；右：去畸变后，边缘的弯曲被校正，图像四周出现黑边）：
+
+![去畸变前后对照](q2_calib/results/display_27mm_19views_2026-10-18/undistort_comparison.jpg)
 
 我拍摄了 19 张棋盘图（方格 27 mm），完成标定和去畸变，并做了 5 组 0.5～1.5 m 的 A4 实测对比，以及 30°/60° 两张斜拍。斜拍时保持的是相机离地高度 50 cm，而不是到纸中心的距离，所以不满足"同一距离"的要求。2～3 m 远端和严格同距离的角度实验没有完成。
 
