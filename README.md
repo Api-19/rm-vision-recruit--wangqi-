@@ -91,6 +91,10 @@ cd qB_sentry/handwritten && python plan.py
 - 正式提交的路径为 [`qB_sentry/path1~5.csv`](qB_sentry/)（与 `handwritten/` 中的 A\* 结果相同），汇总表见 [`qB_sentry/summary.csv`](qB_sentry/summary.csv)。
 - 检查日志：[`checker_output.txt`](qB_sentry/handwritten/checker_output.txt)，10 条路径（A\* 和 Dijkstra 各 5 条）全部"问题 0 处，通过"。
 
+第 3 组（Codex 版本误判的那一组）的检查器输出截图：
+
+![check_path.py 检查第 3 组](qB_sentry/handwritten/checker_screenshot_path3.png)
+
 ### 3.3 B 题：点云与栅格（AI 辅助）
 
 原始 2116092 点 → 0.05 m 体素降采样后 1009274 点 → 统计离群剔除后 998900 点。用 RANSAC 提取多个候选平面，第一次拟合出的大平面是墙，不是地面；结合法线方向和雷达安装高度选出地面，再把地面法线旋转到 +z。
