@@ -1,5 +1,7 @@
 # 验证记录（2026-10-17，Asia/Shanghai）
 
+> **这是 Codex 阶段的历史验证记录。** 其中"第 3 组不可达"等结论已被本人手写规划器的结果取代，当前结果以根目录 [README](README.md) 为准。
+
 执行环境：考核目录Python3.11.17 arm64；包快照见q1_env/results/requirements-observed.txt。所有结果由Agent运行，不能认证学生独立实现能力。
 
 ## 已执行
