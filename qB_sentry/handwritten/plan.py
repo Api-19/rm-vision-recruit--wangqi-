@@ -6,6 +6,7 @@ import json
 import numpy as np
 from pathlib import Path
 import yaml
+import sys
 def load_map(path):
     path=Path(path)
     cfg=read_config(path)
@@ -133,12 +134,13 @@ def astar(safe, start, goal, resolution):
     path.reverse()
     return path,dist[goal],expanded
 
-map_path='/Users/kik/Downloads/给新生 2/data/map/rmuc_2025.yaml'
+map_path = sys.argv[1]       
+queries_path = sys.argv[2]   
 image, cfg, free = load_map(map_path)
 resolution=cfg['resolution']
 d = ndimage.distance_transform_edt(free) * resolution
 safe = d >= 0.30
-queries=json.load(open('/Users/kik/Downloads/给新生 2/data/map/queries.json','r'))
+queries=json.load(open(queries_path,'r'))
 for i,q in enumerate(queries['queries'],1):
     start=world_to_cell(q['start'][0], q['start'][1], image.shape[0], image.shape[1], resolution, cfg['origin'][:2])
     goal=world_to_cell(q['goal'][0],q['goal'][1], image.shape[0], image.shape[1], resolution, cfg['origin'][:2])

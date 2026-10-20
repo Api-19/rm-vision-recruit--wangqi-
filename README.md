@@ -44,10 +44,12 @@ extra/                    附加题
 tests/                    Codex 生成的测试
 ```
 
-运行我手写的规划器（需要 Python 3.10+、numpy、opencv-python、scipy、pyyaml；地图和查询文件的路径写在 `plan.py` 末尾）：
+运行我手写的规划器（需要 Python 3.10+、numpy、opencv-python、scipy、pyyaml）。第 1 个参数是地图 yaml，第 2 个参数是查询 json；路径 csv 输出到当前目录：
 
 ```bash
-cd qB_sentry/handwritten && python plan.py
+cd qB_sentry/handwritten
+python plan.py <地图yaml> <queries.json>
+# 例如：python plan.py ../../data/map/rmuc_2025.yaml ../../data/map/queries.json
 ```
 
 ## 三、方案与结果
