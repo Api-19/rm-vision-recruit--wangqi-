@@ -239,8 +239,8 @@
     },
     {
       "path": "qB_sentry/results/auto_registration/generated_paths/summary.csv",
-      "bytes": 1353,
-      "sha256": "79c1fb8f2cbc8abde2459782df69e5027e6df9f1b4a8b6fc863bc2c70726afec"
+      "bytes": 1338,
+      "sha256": "2d239254c764043109d5c93c350ef4acfc4e2972df147c635b73fff6fb3f3aa0"
     },
     {
       "path": "qB_sentry/results/auto_registration/generated_paths/summary.json",
@@ -389,8 +389,8 @@
     },
     {
       "path": "qB_sentry/results/auto_registration/reference_paths/summary.csv",
-      "bytes": 1198,
-      "sha256": "187d2e2094dd5b5cf9978d8a7dcbd651a3a623d35375f169360b54ae82de6bfb"
+      "bytes": 1183,
+      "sha256": "9931d9351df13bd9dcb5e09503f1d64565775035ba34901538d9092338ae5618"
     },
     {
       "path": "qB_sentry/results/auto_registration/reference_paths/summary.json",
@@ -524,8 +524,8 @@
     },
     {
       "path": "qB_sentry/results/extended/decision/simulation.csv",
-      "bytes": 17830,
-      "sha256": "306da966ca5733474c03a04be358197d0f8f0ae94c9d0477fafd291641b8de5e"
+      "bytes": 17589,
+      "sha256": "f1efa53f248a5455e1ff9b5323925fbf15bdae78667fd127daf690eaf49ec0cf"
     },
     {
       "path": "qB_sentry/results/extended/decision/simulation.gif",
@@ -659,8 +659,8 @@
     },
     {
       "path": "qB_sentry/results/extended/orientation_0/generated_paths/summary.csv",
-      "bytes": 1360,
-      "sha256": "564f4e5489033b8fa5d2794a0bb714d8a889054c3015b05b01b906d5458bf742"
+      "bytes": 1345,
+      "sha256": "46a6cfe468a1f43d0c3882100390044408ac6926effa22d7cf4547859901e37f"
     },
     {
       "path": "qB_sentry/results/extended/orientation_0/generated_paths/summary.json",
@@ -814,8 +814,8 @@
     },
     {
       "path": "qB_sentry/results/extended/orientation_0/reference_paths/summary.csv",
-      "bytes": 1198,
-      "sha256": "a7202726ba45a5196d55990001ac8e864f2953e54dc3d7f15357eee12a65fcc9"
+      "bytes": 1183,
+      "sha256": "9a862ba89c70215d13db30cb895720f8619ead15c7292b588224635527a63549"
     },
     {
       "path": "qB_sentry/results/extended/orientation_0/reference_paths/summary.json",
@@ -919,8 +919,8 @@
     },
     {
       "path": "qB_sentry/results/extended/orientation_180/generated_paths/summary.csv",
-      "bytes": 1587,
-      "sha256": "31ec8af7d720d2113de2d2b2e58d3248d05fb113d45f4dbc354b2faed8bba63c"
+      "bytes": 1572,
+      "sha256": "b08375c630335da18f20bc97c6e7ce4a10f57306f3cd9cb44abc81a54ee75555"
     },
     {
       "path": "qB_sentry/results/extended/orientation_180/generated_paths/summary.json",
@@ -1074,8 +1074,8 @@
     },
     {
       "path": "qB_sentry/results/extended/orientation_180/reference_paths/summary.csv",
-      "bytes": 1200,
-      "sha256": "b4e271f415b316a36a615dbd5ba2f8423d668b0a9169ed8c9c84d1d202b7103c"
+      "bytes": 1185,
+      "sha256": "60f1fda8244c66657e4dd59e63a83c35992876176f44b0b22cca0236ebe606a8"
     },
     {
       "path": "qB_sentry/results/extended/orientation_180/reference_paths/summary.json",
