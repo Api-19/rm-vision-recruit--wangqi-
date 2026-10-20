@@ -1,0 +1,11 @@
+{
+  "source": "direct user answers in this conversation",
+  "attachment_angles": {
+    "IMG_4773.HEIC": 30,
+    "IMG_4772.HEIC": 60
+  },
+  "angle_definition": "photography direction versus paper plane normal",
+  "reported_distance_metric": "camera height above ground",
+  "reported_height_m": 0.5,
+  "center_slant_range_measured": false
+}

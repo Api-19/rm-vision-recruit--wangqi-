@@ -1,0 +1,36 @@
+Running test
+test_off_axis_target_not_slant_times_optical_cosine (test_angle_study.PlaneMetricsTests.test_off_axis_target_not_slant_times_optical_cosine) ... ok
+test_tilted_plane (test_angle_study.PlaneMetricsTests.test_tilted_plane) ... ok
+test_corner_shapes_must_not_broadcast (test_calibration_diagnostics.CalibrationDiagnosticsTests.test_corner_shapes_must_not_broadcast) ... ok
+test_unobserved_edge_fold_is_reported (test_calibration_diagnostics.CalibrationDiagnosticsTests.test_unobserved_edge_fold_is_reported) ... ok
+test_calibration_and_pnp_from_known_geometry (test_core.GeometryTests.test_calibration_and_pnp_from_known_geometry) ... ok
+test_calibration_variants_and_measurement_files (test_core.GeometryTests.test_calibration_variants_and_measurement_files) ... ok
+test_ground_alignment_and_ramp_step (test_core.GeometryTests.test_ground_alignment_and_ramp_step) ... ok
+test_landmark_registration (test_core.GeometryTests.test_landmark_registration) ... ok
+test_real_detection_pipeline_on_rendered_boards (test_core.GeometryTests.test_real_detection_pipeline_on_rendered_boards) ... ok
+test_astar_equals_dijkstra_on_random_maps (test_core.SearchTests.test_astar_equals_dijkstra_on_random_maps) ... ok
+test_coordinates_and_continuous_collision (test_core.SearchTests.test_coordinates_and_continuous_collision) ... ok
+test_known_cost_and_blocked_corner (test_core.SearchTests.test_known_cost_and_blocked_corner) ... ok
+test_decision_priority_and_time_boundary (test_extended.ExtendedTests.test_decision_priority_and_time_boundary) ... ok
+test_missing_support_not_ramp (test_extended.ExtendedTests.test_missing_support_not_ramp) ... ok
+test_ramp_vs_step_vs_raised_flat (test_extended.ExtendedTests.test_ramp_vs_step_vs_raised_flat) ... ok
+test_unknown_never_loads_as_free (test_extended.ExtendedTests.test_unknown_never_loads_as_free) ... ok
+test_auto_registration_recovers_asymmetric_geometry (test_local_completion.InputTests.test_auto_registration_recovers_asymmetric_geometry) ... ok
+test_failed_or_unreachable_rerun_does_not_keep_old_path (test_local_completion.InputTests.test_failed_or_unreachable_rerun_does_not_keep_old_path) ... Compared supplied observations. Wrong board scale changes translation scale, not intrinsic pixel scale.
+{'count': 1, 'mae_m': 2.220446049250313e-16, 'rmse_m': 2.220446049250313e-16, 'has_at_least_5_samples': False, 'note': 'Sample count alone does not prove 0.5–3m coverage or genuine measurements.'}
+accepted=15, RMS=0.1018px; /var/folders/mm/7cd7mh650tnb6kx69jkjc5w40000gn/T/rm-synthetic-calib-yhh41p9r/results/calibration.json
+1 astar start_outside_map None not_run
+1 dijkstra start_outside_map None not_run
+ok
+test_invalid_camera_matrix (test_local_completion.InputTests.test_invalid_camera_matrix) ... ok
+test_invalid_disk_input (test_local_completion.InputTests.test_invalid_disk_input) ... ok
+test_invalid_grid_settings (test_local_completion.InputTests.test_invalid_grid_settings) ... ok
+test_no_photos_are_not_ready (test_local_completion.InputTests.test_no_photos_are_not_ready) ... ok
+test_reflection_is_not_rigid_rotation (test_local_completion.InputTests.test_reflection_is_not_rigid_rotation) ... ok
+test_resampling_exterior_never_free (test_local_completion.InputTests.test_resampling_exterior_never_free) ... ok
+
+----------------------------------------------------------------------
+Ran 24 tests in 0.621s
+
+OK
+Inspect registration.png; map agreement is not ground truth.

@@ -53,6 +53,51 @@
       "sha256": "1ed853a9058556ed8a5a2f04b456655520a94b14602d52ded2c483f2979a40d9"
     },
     {
+      "path": "q2_calib/results/angle_2026-10-20/REPORT.md",
+      "bytes": 4774,
+      "sha256": "df5c0c5e611286940bb33f66ce66596e45be312b062bfa3a1135078b40ff3252"
+    },
+    {
+      "path": "q2_calib/results/angle_2026-10-20/capture_confirmation.json",
+      "bytes": 338,
+      "sha256": "02c43aa6f554f7f6fa8ca21fc95db259ff244bb68afae6815a9231c22612b1ca"
+    },
+    {
+      "path": "q2_calib/results/angle_2026-10-20/comparison.csv",
+      "bytes": 1084,
+      "sha256": "8541d0da602587b3aa93f09d15baa6d0620f27ded8094c2d79050f0fc2999a03"
+    },
+    {
+      "path": "q2_calib/results/angle_2026-10-20/input_audit.json",
+      "bytes": 870,
+      "sha256": "104550b63deaee74b4b7f861382d0dadb0cba10ee25a9e8add9d68b645167761"
+    },
+    {
+      "path": "q2_calib/results/angle_2026-10-20/pose_comparison.png",
+      "bytes": 78864,
+      "sha256": "e721ef51b9abea0267370fa6fad1cffcbfa8745fdaea3b5cd923be2f2150061c"
+    },
+    {
+      "path": "q2_calib/results/angle_2026-10-20/provenance.json",
+      "bytes": 422,
+      "sha256": "4b67cd0fd370683857d1041ac1294d9c01c99dbe2c6404a3648ccec26043af12"
+    },
+    {
+      "path": "q2_calib/results/angle_2026-10-20/results.json",
+      "bytes": 6162,
+      "sha256": "377e212cb7765faae8832bda7f682552ee8c0d4edc4dddc07c1d477fe08f732a"
+    },
+    {
+      "path": "q2_calib/results/angle_2026-10-20/run.txt",
+      "bytes": 73,
+      "sha256": "23b6b8a95c502267986e89241565445cdbdc938eb063114116e6c9020893cb11"
+    },
+    {
+      "path": "q2_calib/results/angle_2026-10-20/tests.txt",
+      "bytes": 3438,
+      "sha256": "9d086eac2ffdb136ef5f9c78b25eb6bde23e60f127d72b5eae163836b85b8287"
+    },
+    {
       "path": "q2_calib/results/display_27mm_19views_2026-10-18/REPORT.md",
       "bytes": 3276,
       "sha256": "fa769e4172d8e16fe96380e44aa211f537a42025bdf4ad6105a10a20951b11e2"
@@ -1539,8 +1584,8 @@
     },
     {
       "path": "evidence/README.md",
-      "bytes": 5236,
-      "sha256": "5046ebc658f1c9887b48ae34a317b0e9bf427d5af635a29e4a5ab52ed476fe99"
+      "bytes": 5728,
+      "sha256": "fe2ef9d321bb21ece4619fab4986d07174d399aa29ddbf163896f5aae3a20913"
     },
     {
       "path": "extra/02_architecture.md",
@@ -1563,5 +1608,5 @@
       "sha256": "57696c7271d20fb29e4f8d2288eeb0db309747ad19f99288e6d4c541fa48a101"
     }
   ],
-  "updated_note": "2026-10-20: B extended experiments and unknown-gray fix"
+  "updated_note": "2026-10-20 angle photos: fixed-height capture confirmed"
 }
