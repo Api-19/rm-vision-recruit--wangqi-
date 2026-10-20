@@ -12,7 +12,7 @@
 | 题一：Git 管理 | 完成 | 考核期间持续提交 |
 | 题一发挥：Ubuntu 22.04 | 完成 | Multipass 虚拟机，Ubuntu 22.04.5 LTS；`lsb_release`、`ls -la`、`top`、`cpuinfo` 截图见 [q1_env](q1_env/README.md) |
 | 题二：标定、去畸变 | 完成（AI 辅助） | 本人拍摄 19 张棋盘图，RMS 0.5254 px，[标定报告](q2_calib/results/display_27mm_19views_2026-10-18/REPORT.md)、[去畸变对照图](q2_calib/results/display_27mm_19views_2026-10-18/undistort_comparison.jpg) |
-| 题二：A4 测距 | 部分完成（AI 辅助） | 5 组 0.5～1.5 m 实测对比，[测距报告](q2_calib/results/a4_2026-10-19/REPORT.md)；缺 2～3 m 远端 |
+| 题二：A4 测距 | 部分完成（AI 辅助） | 5 组 0.5～1.5 m 实测对比（照片与距离的对应已本人确认，平均绝对误差 1.73 cm），[测距报告](q2_calib/results/a4_2026-10-19/REPORT.md)；缺 2～3 m 远端 |
 | 题二发挥：角度、对比实验 | 部分完成（AI 辅助） | [标定对比](q2_calib/results/display_27mm_19views_2026-10-18/variants/REPORT.md)、[斜拍实验](q2_calib/results/angle_2026-10-20/REPORT.md)；斜拍未保持同一距离 |
 | B：点云预处理、地面识别 | 完成（AI 辅助） | [处理记录](qB_sentry/results/cloud_map/processing.json)、[过程图](qB_sentry/results/cloud_map/04_terrain_map.png) |
 | B：0.05 m 栅格生成 | 完成（AI 辅助） | [栅格图](qB_sentry/results/cloud_map/map.pgm) |
