@@ -100,7 +100,9 @@ def rasterize(points, res=.05, max_step=.12, robot_height=.6, max_slope_deg=30.)
     # 仅在10cm内的局部表面支持范围插值；远处未知不扩展。
     # 插值是地表连续性假设，过程图中保留observed以供检查，不能当实测真值。
     free=support & ~blocked & ~step_edges
-    image=np.full((h,w),205,np.uint8)
+    # 概率p=1-gray/255；205对应p≈0.196，小于free_thresh=0.25，
+    # 会被加载器误判为空闲。128对应p≈0.498，处于未知区间。
+    image=np.full((h,w),128,np.uint8)
     image[observed]=0; image[free]=254
     return np.flipud(image),origin,filled,slope,observed,blocked|step_edges
 

@@ -1,0 +1,7 @@
+{
+  "calibration_sha256": "198bcc7efbedc922e651daf1a8367a4282eced9efbbb551df389cd9ee4697ad6",
+  "annotation_space": "original distorted pixels; landscape A4 short edge first",
+  "sensitivity": "200 independent uniform +/-8px perturbations per corner coordinate; not a confidence interval",
+  "status": "height_controlled_capture_confirmed; fixed_center_range_requirement_not_met",
+  "automatic_monitor": "remains paused"
+}

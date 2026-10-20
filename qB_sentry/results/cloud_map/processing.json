@@ -259,5 +259,12 @@
     "No automatic semantic identification of spurious objects.",
     "2D height representation loses stacked-road topology; conservative unknown/blocked cells remain.",
     "Provided-map queries require independently established coordinate registration."
-  ]
+  ],
+  "unknown_semantics_fix_2026_10_20": {
+    "old_unknown_gray": 205,
+    "new_unknown_gray": 128,
+    "reason": "205 decoded as free under free_thresh=0.25",
+    "geometry_unchanged": true,
+    "unknown_cells": 39537
+  }
 }

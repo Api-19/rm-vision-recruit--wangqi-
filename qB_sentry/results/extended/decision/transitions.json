@@ -1,0 +1,37 @@
+[
+  {
+    "time_s": "20",
+    "from": "PATROL",
+    "to": "INVESTIGATE"
+  },
+  {
+    "time_s": "45",
+    "from": "INVESTIGATE",
+    "to": "RETREAT"
+  },
+  {
+    "time_s": "80",
+    "from": "RETREAT",
+    "to": "PATROL"
+  },
+  {
+    "time_s": "85",
+    "from": "PATROL",
+    "to": "RESUPPLY"
+  },
+  {
+    "time_s": "89",
+    "from": "RESUPPLY",
+    "to": "PATROL"
+  },
+  {
+    "time_s": "150",
+    "from": "PATROL",
+    "to": "INVESTIGATE"
+  },
+  {
+    "time_s": "180",
+    "from": "INVESTIGATE",
+    "to": "DEFEND"
+  }
+]

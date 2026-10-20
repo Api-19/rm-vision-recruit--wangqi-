@@ -1,0 +1,42 @@
+{
+  "walls": [
+    {
+      "plane": 0,
+      "normal_after": [
+        6.591949208711867e-17,
+        -0.9999996986954616,
+        -0.0007762789357296795
+      ],
+      "axis_residual_deg": 0.0
+    },
+    {
+      "plane": 1,
+      "normal_after": [
+        -0.00014820534015114878,
+        -0.9999997892888257,
+        -0.0006320264879339788
+      ],
+      "axis_residual_deg": 0.008491542219047687
+    },
+    {
+      "plane": 2,
+      "normal_after": [
+        0.999999982809847,
+        1.958692775296672e-05,
+        -0.0001843818272418904
+      ],
+      "axis_residual_deg": 0.001122248313023988
+    },
+    {
+      "plane": 3,
+      "normal_after": [
+        0.9999999644565873,
+        -0.00026588829206121434,
+        1.9754499805200998e-05
+      ],
+      "axis_residual_deg": 0.015234277139526853
+    }
+  ],
+  "axis_ambiguous_by_180_degrees": true,
+  "note": "Directions, not unique world orientation. Planes extracted from same cloud, not independent ground truth."
+}

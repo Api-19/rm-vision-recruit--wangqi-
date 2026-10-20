@@ -1,0 +1,44 @@
+[
+  {
+    "scenario": "low_hp",
+    "expected": "RETREAT",
+    "actual": "RETREAT",
+    "passed": true
+  },
+  {
+    "scenario": "low_ammo",
+    "expected": "RESUPPLY",
+    "actual": "RESUPPLY",
+    "passed": true
+  },
+  {
+    "scenario": "outpost_lost",
+    "expected": "DEFEND",
+    "actual": "DEFEND",
+    "passed": true
+  },
+  {
+    "scenario": "time_low",
+    "expected": "DEFEND",
+    "actual": "DEFEND",
+    "passed": true
+  },
+  {
+    "scenario": "enemy_seen",
+    "expected": "INVESTIGATE",
+    "actual": "INVESTIGATE",
+    "passed": true
+  },
+  {
+    "scenario": "normal",
+    "expected": "PATROL",
+    "actual": "PATROL",
+    "passed": true
+  },
+  {
+    "scenario": "hp_over_outpost",
+    "expected": "RETREAT",
+    "actual": "RETREAT",
+    "passed": true
+  }
+]

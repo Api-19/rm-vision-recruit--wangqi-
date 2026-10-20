@@ -1,0 +1,227 @@
+[
+  {
+    "center_range_m": 0.5029173781206391,
+    "optical_z_m": 0.4961636585191789,
+    "translation_m": [
+      0.007522429461748679,
+      0.08179808210217708,
+      0.4961636585191789
+    ],
+    "rvec": [
+      -0.008420297818373513,
+      -0.053285724718158116,
+      1.567978645738727
+    ],
+    "reprojection_rms_px": 10.032603018889274,
+    "estimated_inclination_deg": 2.783807273271452,
+    "candidate_errors_px": [
+      23.775620558263054,
+      93.4059850462328
+    ],
+    "ambiguous": false,
+    "image": "IMG_4765.png",
+    "corners_px": [
+      [
+        4152.0,
+        1964.0
+      ],
+      [
+        4136.0,
+        3704.0
+      ],
+      [
+        1668.0,
+        3744.0
+      ],
+      [
+        1644.0,
+        1968.0
+      ]
+    ],
+    "reported_angle_deg": 0,
+    "reported_center_range_m": 0.5,
+    "reported_height_m": null,
+    "capture_status": "historical_user_ruler; near-frontal reference, not instrument-measured zero",
+    "association": "previous 50cm sample",
+    "annotation_source": "Agent visual annotation on 1428x1071 preview, coordinates multiplied by 4",
+    "perpendicular_plane_distance_m": 0.4929501167650618,
+    "center_ray_to_normal_angle_deg": 11.426076352270632,
+    "perturbation_range_p05_p95_m": [
+      0.5016607428979152,
+      0.5042725265018887
+    ],
+    "center_range_error_m": 0.0029173781206390803,
+    "height_error_m": null,
+    "without_distortion": {
+      "center_range_m": 0.4947558299556691,
+      "optical_z_m": 0.4878781846789658,
+      "translation_m": [
+        0.007638200412875923,
+        0.08185270969205968,
+        0.4878781846789658
+      ],
+      "rvec": [
+        -0.014087733059678725,
+        -0.04611307704364245,
+        1.568126513404622
+      ],
+      "reprojection_rms_px": 9.98430989036,
+      "estimated_inclination_deg": 2.488092469929248,
+      "candidate_errors_px": [
+        24.380575292655013,
+        92.03373493843625
+      ],
+      "ambiguous": false
+    }
+  },
+  {
+    "center_range_m": 0.7527235827001562,
+    "optical_z_m": 0.7390832979512887,
+    "translation_m": [
+      0.03670240387358946,
+      0.13784630641517207,
+      0.7390832979512887
+    ],
+    "rvec": [
+      -0.4777542619321693,
+      0.5358109550122642,
+      1.5329657164708232
+    ],
+    "reprojection_rms_px": 2.1354332217210508,
+    "estimated_inclination_deg": 37.03481603766944,
+    "candidate_errors_px": [
+      2.467162484941096,
+      108.67601438326213
+    ],
+    "ambiguous": false,
+    "image": "IMG_4773.png",
+    "corners_px": [
+      [
+        3832.0,
+        2452.0
+      ],
+      [
+        3988.0,
+        3548.0
+      ],
+      [
+        2144.0,
+        3504.0
+      ],
+      [
+        2300.0,
+        2432.0
+      ]
+    ],
+    "reported_angle_deg": 30,
+    "reported_center_range_m": null,
+    "reported_height_m": 0.5,
+    "capture_status": "user confirmed attachment angle order, optical/photography direction versus plane normal, camera height 50cm; center slant range not measured",
+    "association": "user confirmed IMG_4773=30deg, IMG_4772=60deg; no reassignment from estimates",
+    "annotation_source": "Agent visual corners on 1428x1071 preview multiplied by4; not fitted to nominal distance or angle",
+    "perpendicular_plane_distance_m": 0.6739352808658567,
+    "center_ray_to_normal_angle_deg": 26.44927504110529,
+    "perturbation_range_p05_p95_m": [
+      0.7496621209843289,
+      0.7555893175039436
+    ],
+    "center_range_error_m": null,
+    "height_error_m": 0.17393528086585675,
+    "without_distortion": {
+      "center_range_m": 0.741415302199902,
+      "optical_z_m": 0.7275322482063824,
+      "translation_m": [
+        0.03698205184939829,
+        0.13793406394704372,
+        0.7275322482063824
+      ],
+      "rvec": [
+        -0.47724246364569184,
+        0.5318289053150149,
+        1.5343340921512756
+      ],
+      "reprojection_rms_px": 5.592763396103587,
+      "estimated_inclination_deg": 36.85884852832345,
+      "candidate_errors_px": [
+        6.52277237808144,
+        110.65366954820213
+      ],
+      "ambiguous": false
+    }
+  },
+  {
+    "center_range_m": 0.6575565933621016,
+    "optical_z_m": 0.6497443662383634,
+    "translation_m": [
+      0.04943510662159717,
+      0.08814251101932083,
+      0.6497443662383634
+    ],
+    "rvec": [
+      -0.2348763993952757,
+      0.2767582542171866,
+      1.5937286602530265
+    ],
+    "reprojection_rms_px": 4.809548911147664,
+    "estimated_inclination_deg": 18.640767323966553,
+    "candidate_errors_px": [
+      8.815732660215394,
+      57.82684539061475
+    ],
+    "ambiguous": false,
+    "image": "IMG_4772.png",
+    "corners_px": [
+      [
+        4088.0,
+        2124.0
+      ],
+      [
+        4176.0,
+        3476.0
+      ],
+      [
+        2156.0,
+        3384.0
+      ],
+      [
+        2288.0,
+        2068.0
+      ]
+    ],
+    "reported_angle_deg": 60,
+    "reported_center_range_m": null,
+    "reported_height_m": 0.5,
+    "capture_status": "user confirmed attachment angle order, optical/photography direction versus plane normal, camera height 50cm; center slant range not measured",
+    "association": "user confirmed IMG_4773=30deg, IMG_4772=60deg; no reassignment from estimates",
+    "annotation_source": "Agent visual corners on 1428x1071 preview multiplied by4; not fitted to nominal distance or angle",
+    "perpendicular_plane_distance_m": 0.6447638157868096,
+    "center_ray_to_normal_angle_deg": 11.320356710811831,
+    "perturbation_range_p05_p95_m": [
+      0.6552187647975267,
+      0.6597019980947217
+    ],
+    "center_range_error_m": null,
+    "height_error_m": 0.14476381578680964,
+    "without_distortion": {
+      "center_range_m": 0.6473740651604023,
+      "optical_z_m": 0.6394075904707899,
+      "translation_m": [
+        0.04966672613832714,
+        0.08822884905371849,
+        0.6394075904707899
+      ],
+      "rvec": [
+        -0.2372971468341552,
+        0.2859455374817252,
+        1.5938013624208778
+      ],
+      "reprojection_rms_px": 7.097900475605515,
+      "estimated_inclination_deg": 19.080658661846748,
+      "candidate_errors_px": [
+        13.379332525255878,
+        58.367593169943135
+      ],
+      "ambiguous": false
+    }
+  }
+]
