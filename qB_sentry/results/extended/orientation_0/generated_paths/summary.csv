@@ -1,0 +1,15 @@
+reason,expanded,seconds,cost_m,query,algorithm,length_m,checker
+goal_disk_collides_or_crosses_boundary,0,1.1249212548136711e-06,,1,astar,,not_run
+goal_disk_collides_or_crosses_boundary,0,1.4170072972774506e-06,,1,dijkstra,,not_run
+start_disk_collides_or_crosses_boundary,0,2.0830193534493446e-06,,2,astar,,not_run
+start_disk_collides_or_crosses_boundary,0,1.0830117389559746e-06,,2,dijkstra,,not_run
+start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,0,1.125037670135498e-06,,3,astar,,not_run
+start_disk_collides_or_crosses_boundary;goal_disk_collides_or_crosses_boundary,0,1.4579854905605316e-06,,3,dijkstra,,not_run
+start_disk_collides_or_crosses_boundary,0,1.084059476852417e-06,,4,astar,,not_run
+start_disk_collides_or_crosses_boundary,0,1.00000761449337e-06,,4,dijkstra,,not_run
+goal_disk_collides_or_crosses_boundary,0,1.4581019058823586e-06,,5,astar,,not_run
+goal_disk_collides_or_crosses_boundary,0,1.7919810488820076e-06,,5,dijkstra,,not_run
+goal_disk_collides_or_crosses_boundary,0,1.291045919060707e-06,,6,astar,,not_run
+goal_disk_collides_or_crosses_boundary,0,1.500011421740055e-06,,6,dijkstra,,not_run
+start_disk_collides_or_crosses_boundary;goal_outside_map,0,1.00000761449337e-06,,7,astar,,not_run
+start_disk_collides_or_crosses_boundary;goal_outside_map,0,1.0830117389559746e-06,,7,dijkstra,,not_run
