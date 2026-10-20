@@ -1,0 +1,14 @@
+A*第1组:cost=20.9388,expanded=29988,path saved to A*path1.csv
+A*第2组:cost=27.3543,expanded=44657,path saved to A*path2.csv
+A*第3组:cost=50.5694,expanded=84516,path saved to A*path3.csv
+A*第4组:cost=25.7445,expanded=34397,path saved to A*path4.csv
+A*第5组:cost=56.6967,expanded=70848,path saved to A*path5.csv
+第6组:start or goal is in obstacle
+第7组:start or goal is out of bounds
+dijkstra第1组:cost=20.9388,expanded=44861,path saved to dijkstra_path1.csv
+dijkstra第2组:cost=27.3543,expanded=72408,path saved to dijkstra_path2.csv
+dijkstra第3组:cost=50.5694,expanded=104163,path saved to dijkstra_path3.csv
+dijkstra第4组:cost=25.7445,expanded=79240,path saved to dijkstra_path4.csv
+dijkstra第5组:cost=56.6967,expanded=98945,path saved to dijkstra_path5.csv
+第6组:start or goal is in obstacle
+第7组:start or goal is out of bounds
